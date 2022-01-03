@@ -1,0 +1,59 @@
+<configs>
+
+	<append xpath="/lootcontainers">
+		<lootcontainer id="201" name="Chicken_Hatched" count="3" size="7,2" destroy_on_close="true" sound_open="UseActions/open_garbage" sound_close="silencefiller" loot_quality_template="qualBaseTemplate">
+		<item name="Chicken_Hatched" count="1" prob="0.5" />
+		<item name="foodEgg" count="1,3" prob="1" />
+		<item name="resourceFeather" count="6,15" prob="1" />
+	</lootcontainer>
+
+	<lootcontainer id="202" name="Rabbit_trap" count="2" size="7,2" destroy_on_close="true" sound_open="UseActions/open_garbage" sound_close="silencefiller" loot_quality_template="qualBaseTemplate">
+		<item name="Rabbit_trap" count="1" loot_prob_template="guaranteed"/>
+		<item name="plantedBlueberry1" count="1" loot_prob_template="low"/>
+		<item name="plantedCorn1" count="1" loot_prob_template="low"/>
+		<item name="plantedGoldenrod1" count="1" loot_prob_template="low"/>
+		<item name="plantedHop1" count="1" loot_prob_template="low"/>
+		<item name="plantedPotato1" count="1" loot_prob_template="low"/>
+		<item name="plantedPumpkin1" count="1" loot_prob_template="low"/>		
+	</lootcontainer>
+	
+	<lootcontainer id="203" name="Shrooms" count="2" size="7,2" destroy_on_close="true" sound_open="UseActions/open_garbage" sound_close="silencefiller" loot_quality_template="qualBaseTemplate">
+		<item name="foodCropMushrooms" count="3,6" prob="1" />
+		<item name="plantedMushroom1" count="1" prob="0.7" />		
+	</lootcontainer>	
+	</append>
+	
+	<insertBefore xpath="/lootcontainers/lootgroup[@name='groupApparelSuit']">
+	<lootgroup name="petanimals">
+		<item name="PetPig1"/>
+		<item name="PetStag1"/>
+		<item name="PetBoar1"/>
+		<item name="PetBear1"/>
+		<item name="PetWolf1"/>
+		<item name="PetCoyote1"/>
+		<item name="PetDoe1"/>
+	</lootgroup>
+	<lootgroup name="turretguards">
+		<item name="TurretGuardSim1"/>
+		<item name="GuardTurretDre1"/>
+		<item name="GuardTurretFox1"/>
+		<item name="GuardTurretLizzy1"/>
+		<item name="GuardTurretBandit1"/>
+		<item name="GuardTurretBanditFoxy1"/>
+		<item name="TurretGuardLeader1"/>
+		<item name="TurretGuardCompoundBowMan1"/>
+		<item name="TurretGuardDrkStarDragon1"/>
+		<item name="TurretGuardJoJo1"/>
+		<item name="TurretGuardLezabel1"/>
+		<item name="TurretGuardOakraven1"/>		
+		
+	</lootgroup>	
+	
+	</insertBefore>
+
+	<append xpath="/lootcontainers/lootcontainer[@id='34']"> <!-- Supply Crate General, the normal airdrop -->
+		<item group="petanimals" count="1,3" loot_prob_template="medLow"/>
+		<item group="turretguards" count="1,3" loot_prob_template="medLow"/>		
+	</append>
+	
+</configs>

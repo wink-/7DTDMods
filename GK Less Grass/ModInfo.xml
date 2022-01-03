@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  <ModInfo>
+    <Name value="GK Less Grass"/>
+    <Description value="Less grass is generated in biomes."/>
+    <Author value="Gouki"/>
+    <Version value="1.1"/>
+  </ModInfo>
+</xml>

@@ -1,0 +1,23 @@
+<configs>
+	
+<!-- <append xpath="/entitygroups/entitygroup[@name='ZombiesAll']"></append> -->
+<!-- <append xpath="/entitygroups/entitygroup[@name='ZombiesNight']"></append> -->
+<!-- <append xpath="/entitygroups/entitygroup[@name='ZombiesForestDowntown']"></append> -->
+<!-- <append xpath="/entitygroups/entitygroup[@name='ZombiesForestDowntownNight']"></append> -->
+<!-- <append xpath="/entitygroups/entitygroup[@name='ZombiesDowntown']"></append> -->
+<!-- <append xpath="/entitygroups/entitygroup[@name='ZombiesWasteland']"></append> -->
+<!-- <append xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNight']"></append> -->
+<!-- <append xpath="/entitygroups/entitygroup[@name='ZombiesWastelandDowntown']"></append> -->
+<!-- <append xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNightNoBears']"></append> -->
+<!-- <append xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNight2']"></append> -->
+<!-- <append xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNight2NoBears']"></append> -->
+<!-- <append xpath="/entitygroups/entitygroup[@name='ZombiesHoard']"></append> -->
+<!-- <append xpath="/entitygroups/entitygroup[@name='ZombiesScouts']"></append> -->
+<!-- <append xpath="/entitygroups/entitygroup[@name='ZombiesCrawlers']"></append> -->
+<!-- <append xpath="/entitygroups/entitygroup[@name='ZombiesBurntForest']"></append> -->
+<!-- <append xpath="/entitygroups/entitygroup[@name='SnowZombies']"></append> -->
+<!-- <append xpath="/entitygroups/entitygroup[@name='ZombiesBoss']"></append> -->
+<!-- <append xpath="/entitygroups/entitygroup[@name='ZombiesCave']"></append> -->
+
+
+</configs>

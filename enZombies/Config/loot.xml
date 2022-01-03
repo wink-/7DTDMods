@@ -1,0 +1,14 @@
+<ErrorNull>
+
+	<!-- ** new quests ** -->
+	<!-- ** loogroup name "groupQuestChallenge" removed from Alpha 20 **
+	<append xpath="/lootcontainers/lootgroup[@name='groupQuestChallenge']">
+		<item name="qc_GoblinRaid"/>
+		<item name="qc_ForestGoblinRaid1"/>
+		<item name="qc_SnowGoblinRaid1"/>
+		<item name="qc_BurntGoblinRaid1"/>
+		<item name="qc_WastelandGoblinRaid1"/>
+		<item name="qc_BusinessmanRaid1"/>
+	</append>
+	-->
+</ErrorNull>

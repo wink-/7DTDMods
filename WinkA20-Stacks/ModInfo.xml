@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+	<ModInfo>
+		<Name value="WinkA20-Stacks"/>
+		<Description value="Item stack tweaks for my server in particular."/>
+		<Author value="Wink-"/>
+		<Version value="1.0"/>
+	</ModInfo>
+</xml>

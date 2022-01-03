@@ -1,0 +1,794 @@
+<ErrorNull>
+
+
+<remove xpath="/gamestages/spawner[@name='SleeperTestChamberGSList']" />
+<append xpath="/gamestages">
+	<spawner name="SleeperTestChamberGSList">		
+		<gamestage stage="1"><spawn group="testChamberZombie1" num="1" maxAlive="1" duration="1"/></gamestage>
+		<gamestage stage="50"><spawn group="testChamberZombie50" num="1" maxAlive="1" duration="1"/></gamestage>
+		<gamestage stage="100"><spawn group="testChamberZombie100" num="1" maxAlive="1" duration="1"/></gamestage>
+		<gamestage stage="150"><spawn group="testChamberZombie150" num="1" maxAlive="1" duration="1"/></gamestage>
+		<gamestage stage="200"><spawn group="testChamberZombie200" num="1" maxAlive="1" duration="1"/></gamestage>
+		<gamestage stage="300"><spawn group="testChamberZombie300" num="1" maxAlive="1" duration="1"/></gamestage>
+		<gamestage stage="400"><spawn group="testChamberZombie400" num="1" maxAlive="1" duration="1"/></gamestage>
+		<gamestage stage="600"><spawn group="testChamberZombie600" num="1" maxAlive="1" duration="1"/></gamestage>
+		<gamestage stage="800"><spawn group="testChamberZombie800" num="1" maxAlive="1" duration="1"/></gamestage>
+		<gamestage stage="1000"><spawn group="testChamberZombie1000" num="1" maxAlive="1" duration="1"/></gamestage>
+		<gamestage stage="1200"><spawn group="testChamberZombie1200" num="1" maxAlive="1" duration="1"/></gamestage>
+
+	</spawner>
+</append>
+
+
+<!-- 
+AbandonedHouseHorde appears to be a hardcoded reference and is not called directly from an XML file. 
+Assuming this zombie group will spawn in abandoned homes/buildings POIs.
+-->
+<remove xpath="/gamestages/spawner[@name='AbandonedHouseHorde']" />
+<append xpath="/gamestages">
+	<spawner name="AbandonedHouseHorde">
+		<gamestage stage="1">
+			<spawn group="scoutHordeStageGS1" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+	</spawner>
+</append>
+
+
+
+<!--
+ZombieBikerBarHorde appears to be a hardcoded reference and is not called directly from an XML file. 
+Assuming this zombie groups will spawn in bars and strip club POIs.
+-->
+<remove xpath="/gamestages/spawner[@name='ZombieBikerBarHorde']" />
+<append xpath="/gamestages">
+	<spawner name="ZombieBikerBarHorde">
+		<gamestage stage="1">
+			<spawn group="ZombieBikerBarGroupGS1" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="50">
+			<spawn group="ZombieBikerBarGroupGS50" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="100">
+			<spawn group="ZombieBikerBarGroupGS100" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="200">
+			<spawn group="ZombieBikerBarGroupGS200" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="400">
+			<spawn group="ZombieBikerBarGroupGS400" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="800">
+			<spawn group="ZombieBikerBarGroupGS800" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+	</spawner>
+</append>
+
+
+<!--
+ZombieNightClubHorde appears to be a hardcoded reference and is not called directly from an XML file. 
+Assuming these zombie groups will spawn in night club POIs.
+-->
+<remove xpath="/gamestages/spawner[@name='ZombieNightClubHorde']" />
+<append xpath="/gamestages">
+	<spawner name="ZombieNightClubHorde">
+		<gamestage stage="1">
+			<spawn group="ZombieNightClubGroupGS1" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="50">
+			<spawn group="ZombieNightClubGroupGS50" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="100">
+			<spawn group="ZombieNightClubGroupGS100" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="200">
+			<spawn group="ZombieNightClubGroupGS200" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="400">
+			<spawn group="ZombieNightClubGroupGS400" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="800">
+			<spawn group="ZombieNightClubGroupGS800" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+	</spawner>
+</append>
+
+
+
+<!--
+ZombieSpecialInfectedHorde appears to be a hardcoded reference and is not called directly from an XML file. 
+Unsure where/when these zombie groups will spawn in-game? 
+-->
+<remove xpath="/gamestages/spawner[@name='ZombieSpecialInfectedHorde']" />
+<append xpath="/gamestages">
+	<spawner name="ZombieSpecialInfectedHorde">
+		<gamestage stage="1">
+			<spawn group="ZombieSpecialInfectedGroupGS1" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="50">
+			<spawn group="ZombieSpecialInfectedGroupGS50" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="100">
+			<spawn group="ZombieSpecialInfectedGroupGS100" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="200">
+			<spawn group="ZombieSpecialInfectedGroupGS200" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="400">
+			<spawn group="ZombieSpecialInfectedGroupGS400" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="800">
+			<spawn group="ZombieSpecialInfectedGroupGS800" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+	</spawner>
+</append>
+
+
+
+<!--
+ZombieGhostTownHorde appears to be a hardcoded reference and is not called directly from an XML file. 
+These zombie groups spawn within the desert old west town POIs.
+-->
+<remove xpath="/gamestages/spawner[@name='ZombieGhostTownHorde']" />
+<append xpath="/gamestages">
+	<spawner name="ZombieGhostTownHorde">
+		<gamestage stage="1">
+			<spawn group="ZombieGhostTownGroupGS1" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="50">
+			<spawn group="ZombieGhostTownGroupGS50" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="100">
+			<spawn group="ZombieGhostTownGroupGS100" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="200">
+			<spawn group="ZombieGhostTownGroupGS200" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="400">
+			<spawn group="ZombieGhostTownGroupGS400" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="800">
+			<spawn group="ZombieGhostTownGroupGS800" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+	</spawner>
+</append>
+
+
+
+<!--
+HospitalHorde appears to be a hardcoded reference and is not called directly from an XML file. 
+Assuming this zombie group will spawns in all related hostpital POIs. 
+-->
+<remove xpath="/gamestages/spawner[@name='HospitalHorde']" />
+<append xpath="/gamestages">
+	<spawner name="HospitalHorde">
+		<gamestage stage="1">
+			<spawn group="zombieHospitalGroupGS1" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="50">
+			<spawn group="zombieHospitalGroupGS50" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="100">
+			<spawn group="zombieHospitalGroupGS100" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="200">
+			<spawn group="zombieHospitalGroupGS200" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="400">
+			<spawn group="zombieHospitalGroupGS400" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="800">
+			<spawn group="zombieHospitalGroupGS800" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+	</spawner>
+</append>
+
+
+<!--
+LabWorkerHorde appears to be a hardcoded reference and is not called directly from an XML file. 
+Assuming this zombie group will spawn in all related lab or hospital POIs.
+-->
+<remove xpath="/gamestages/spawner[@name='LabWorkerHorde']" />
+<append xpath="/gamestages">
+	<spawner name="LabWorkerHorde">
+		<gamestage stage="1">
+			<spawn group="zombieLabWorkerGroupGS1" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="50">
+			<spawn group="zombieLabWorkerGroupGS50" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="100">
+			<spawn group="zombieLabWorkerGroupGS100" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="200">
+			<spawn group="zombieLabWorkerGroupGS200" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="400">
+			<spawn group="zombieLabWorkerGroupGS400" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="800">
+			<spawn group="zombieLabWorkerGroupGS800" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+	</spawner>
+</append>
+
+
+<!--
+ZombieSpiderOnlyHorde appears to be a hardcoded reference and is not called directly from an XML file. 
+Unsure where/when these zombie groups will spawn in-game? 
+-->
+<remove xpath="/gamestages/spawner[@name='ZombieSpiderOnlyHorde']" />
+<append xpath="/gamestages">
+	<spawner name="ZombieSpiderOnlyHorde">
+		<gamestage stage="1">
+			<spawn group="zombieSpiderGroupGS1" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="50">
+			<spawn group="zombieSpiderGroupGS50" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="100">
+			<spawn group="zombieSpiderGroupGS100" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="200">
+			<spawn group="zombieSpiderGroupGS200" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="400">
+			<spawn group="zombieSpiderGroupGS400" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="800">
+			<spawn group="zombieSpiderGroupGS800" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+	</spawner>
+</append>
+
+
+<!--
+ZombieSoldierHorde appears to be a hardcoded reference and is not called directly from an XML file. 
+Assuming this zombie group will spawn in all related army / military POIs.
+-->
+<remove xpath="/gamestages/spawner[@name='ZombieSoldierHorde']" />
+<append xpath="/gamestages">
+	<spawner name="ZombieSoldierHorde">
+		<gamestage stage="1">
+			<spawn group="zombieSoldierGroupGS1" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="50">
+			<spawn group="zombieSoldierGroupGS50" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="100">
+			<spawn group="zombieSoldierGroupGS100" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="200">
+			<spawn group="zombieSoldierGroupGS200" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="400">
+			<spawn group="zombieSoldierGroupGS400" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="800">
+			<spawn group="zombieSoldierGroupGS800" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+	</spawner>
+</append>
+
+
+
+<!--
+ZombieHazMatOnlyHorde appears to be a hardcoded reference and is not called directly from an XML file. 
+Assuming this zombie group will spawn in military, hospitals, cemetary, etc POIs?
+-->
+<remove xpath="/gamestages/spawner[@name='ZombieHazMatOnlyHorde']" />
+<append xpath="/gamestages">
+	<spawner name="ZombieHazMatOnlyHorde">
+		<gamestage stage="1">
+			<spawn group="ZombieMaleHazmatGroupGS1" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="50">
+			<spawn group="ZombieMaleHazmatGroupGS50" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="100">
+			<spawn group="ZombieMaleHazmatGroupGS100" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="200">
+			<spawn group="ZombieMaleHazmatGroupGS200" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="400">
+			<spawn group="ZombieMaleHazmatGroupGS400" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="800">
+			<spawn group="ZombieMaleHazmatGroupGS800" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+	</spawner>
+</append>
+
+
+<!--
+ZombieUtilityWorkerHorde appears to be a hardcoded reference and is not called directly from an XML file. 
+Assuming this zombie group will spawn in all related gas station and construction POIs?
+-->
+<remove xpath="/gamestages/spawner[@name='ZombieUtilityWorkerHorde']" />
+<append xpath="/gamestages">
+	<spawner name="ZombieUtilityWorkerHorde">
+		<gamestage stage="1">
+			<spawn group="zombieUtilityWorkerGroupGS1" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="50">
+			<spawn group="zombieUtilityWorkerGroupGS50" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="100">
+			<spawn group="zombieUtilityWorkerGroupGS100" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="200">
+			<spawn group="zombieUtilityWorkerGroupGS200" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="400">
+			<spawn group="zombieUtilityWorkerGroupGS400" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="800">
+			<spawn group="zombieUtilityWorkerGroupGS800" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+	</spawner>
+</append>
+
+
+<!--
+ZombieJanitorOnlyHorde appears to be a hardcoded reference and is not called directly from an XML file. 
+Assuming this zombie group will spawn in gas stations and some commercial building POIs.
+-->
+<remove xpath="/gamestages/spawner[@name='ZombieJanitorOnlyHorde']" />
+<append xpath="/gamestages">
+	<spawner name="ZombieJanitorOnlyHorde">
+		<gamestage stage="1">
+			<spawn group="zombieJanitorGroupGS1" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="50">
+			<spawn group="zombieJanitorGroupGS50" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="100">
+			<spawn group="zombieJanitorGroupGS100" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="200">
+			<spawn group="zombieJanitorGroupGS200" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="400">
+			<spawn group="zombieJanitorGroupGS400" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="800">
+			<spawn group="zombieJanitorGroupGS800" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+	</spawner>
+</append>
+
+
+<!--
+ZombieLumberjackHorde appears to be a hardcoded reference and is not called directly from an XML file. 
+Assuming this zombie group will spawn in all related forest area POIs.
+-->
+<remove xpath="/gamestages/spawner[@name='ZombieLumberjackHorde']" />
+<append xpath="/gamestages">
+	<spawner name="ZombieLumberjackHorde">
+		<gamestage stage="1">
+			<spawn group="zombieLumberjackGroupGS1" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="50">
+			<spawn group="zombieLumberjackGroupGS50" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="100">
+			<spawn group="zombieLumberjackGroupGS100" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="200">
+			<spawn group="zombieLumberjackGroupGS200" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="400">
+			<spawn group="zombieLumberjackGroupGS400" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="800">
+			<spawn group="zombieLumberjackGroupGS800" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+	</spawner>
+</append>
+
+
+<!--
+ZombieBusinessManHorde appears to be a hardcoded reference and is not called directly from an XML file. 
+Assuming this zombie group will spawn in all related office building POIs.
+-->
+<remove xpath="/gamestages/spawner[@name='ZombieBusinessManHorde']" />
+<append xpath="/gamestages">
+	<spawner name="ZombieBusinessManHorde">
+		<gamestage stage="1">
+			<spawn group="zombieBusinessManGroupGS1" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="50">
+			<spawn group="zombieBusinessManGroupGS50" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="100">
+			<spawn group="zombieBusinessManGroupGS100" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="200">
+			<spawn group="zombieBusinessManGroupGS200" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="400">
+			<spawn group="zombieBusinessManGroupGS400" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="800">
+			<spawn group="zombieBusinessManGroupGS800" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+	</spawner>
+</append>
+
+
+<!--
+ZombieFatCopHorde appears to be a hardcoded reference and is not called directly from an XML file. 
+Assuming this zombie group will spawn in all related police station POIs.
+-->
+<remove xpath="/gamestages/spawner[@name='ZombieFatCopHorde']" />
+<append xpath="/gamestages">
+	<spawner name="ZombieFatCopHorde">
+		<gamestage stage="1">
+			<spawn group="zombieFatCopGroupGS1" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="50">
+			<spawn group="zombieFatCopGroupGS50" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="100">
+			<spawn group="zombieFatCopGroupGS100" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="200">
+			<spawn group="zombieFatCopGroupGS200" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="400">
+			<spawn group="zombieFatCopGroupGS400" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="800">
+			<spawn group="zombieFatCopGroupGS800" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+	</spawner>
+</append>
+
+
+<!--
+ZombieBurntHorde appears to be a hardcoded reference and is not called directly from an XML file. 
+Assuming this zombie group will spawn in all related burnt forest POIs.
+-->
+<remove xpath="/gamestages/spawner[@name='ZombieBurntHorde']" />
+<append xpath="/gamestages">
+	<spawner name="ZombieBurntHorde">
+		<gamestage stage="1">
+			<spawn group="zombieBurntGroupGS1" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="50">
+			<spawn group="zombieBurntGroupGS50" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="100">
+			<spawn group="zombieBurntGroupGS100" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="200">
+			<spawn group="zombieBurntGroupGS200" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="400">
+			<spawn group="zombieBurntGroupGS400" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="800">
+			<spawn group="zombieBurntGroupGS800" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+	</spawner>
+</append>
+
+
+<!-- 
+ZombieBadassGSHorde appears to be a hardcoded reference and is not called directly from an XML file. 
+Assuming this zombie group will spawn in areas the call for stronger zombies, maybe loot rooms?
+To simplify, swapped out all badassHordeStageGS references in place of badassOnlyHordeStageGS -->
+<remove xpath="/gamestages/spawner[@name='ZombieBadassGSHorde']" />
+<append xpath="/gamestages">
+	<spawner name="ZombieBadassGSHorde">
+		<gamestage stage="1"><spawn group="badassOnlyHordeStageGS1" num="1" maxAlive="1" duration="1"/></gamestage>
+		<gamestage stage="2"><spawn group="badassOnlyHordeStageGS1" num="2" maxAlive="2" duration="1"/></gamestage>
+		<gamestage stage="3"><spawn group="badassOnlyHordeStageGS1" num="3" maxAlive="3" duration="1"/></gamestage>
+		<gamestage stage="5"><spawn group="badassOnlyHordeStageGS1" num="5" maxAlive="5" duration="1"/></gamestage>
+		<gamestage stage="10"><spawn group="badassOnlyHordeStageGS1" num="10" maxAlive="10" duration="1"/></gamestage>
+		<gamestage stage="20"><spawn group="badassOnlyHordeStageGS20" num="15" maxAlive="20" duration="1"/></gamestage>
+		<gamestage stage="30"><spawn group="badassOnlyHordeStageGS30" num="20" maxAlive="30" duration="1"/></gamestage>
+		<gamestage stage="40"><spawn group="badassOnlyHordeStageGS40" num="25" maxAlive="40" duration="1"/></gamestage>
+		<gamestage stage="50"><spawn group="badassOnlyHordeStageGS50" num="30" maxAlive="50" duration="1"/></gamestage>
+		<gamestage stage="75"><spawn group="badassOnlyHordeStageGS75" num="35" maxAlive="75" duration="1"/></gamestage>
+		<gamestage stage="100"><spawn group="badassOnlyHordeStageGS100" num="40" maxAlive="100" duration="1"/></gamestage>
+		<gamestage stage="150"><spawn group="badassOnlyHordeStageGS150" num="45" maxAlive="150" duration="1"/></gamestage>
+		<gamestage stage="200"><spawn group="badassOnlyHordeStageGS200" num="50" maxAlive="200" duration="1"/></gamestage>
+		<gamestage stage="300"><spawn group="badassOnlyHordeStageGS300" num="75" maxAlive="256" duration="1"/></gamestage>
+		<gamestage stage="400"><spawn group="badassOnlyHordeStageGS400" num="100" maxAlive="256" duration="1"/></gamestage>
+		<gamestage stage="500"><spawn group="badassOnlyHordeStageGS500" num="125" maxAlive="256" duration="1"/></gamestage>
+		<gamestage stage="700"><spawn group="badassOnlyHordeStageGS700" num="150" maxAlive="256" duration="1"/></gamestage>
+		<gamestage stage="900"><spawn group="badassOnlyHordeStageGS900" num="175" maxAlive="256" duration="1"/></gamestage>
+		<gamestage stage="1150"><spawn group="badassOnlyHordeStageGS1150" num="200" maxAlive="256" duration="1"/></gamestage>
+		<gamestage stage="1350"><spawn group="badassOnlyHordeStageGS1350" num="216" maxAlive="256" duration="1"/></gamestage>
+	</spawner>
+</append>
+
+
+<!--
+ZombieBadassOnlyHorde appears to be a hardcoded reference and is not called directly from an XML file. 
+Assuming this zombie group will spawn in areas that call for stronger zombies, like loot rooms?
+-->
+<remove xpath="/gamestages/spawner[@name='ZombieBadassOnlyHorde']" />
+<append xpath="/gamestages">
+	<spawner name="ZombieBadassOnlyHorde">
+		<gamestage stage="1"><spawn group="badassOnlyHordeStageGS1" num="1" maxAlive="1" duration="1"/></gamestage>
+		<gamestage stage="2"><spawn group="badassOnlyHordeStageGS1" num="2" maxAlive="2" duration="1"/></gamestage>
+		<gamestage stage="3"><spawn group="badassOnlyHordeStageGS1" num="3" maxAlive="3" duration="1"/></gamestage>
+		<gamestage stage="5"><spawn group="badassOnlyHordeStageGS1" num="5" maxAlive="5" duration="1"/></gamestage>
+		<gamestage stage="10"><spawn group="badassOnlyHordeStageGS1" num="10" maxAlive="10" duration="1"/></gamestage>
+		<gamestage stage="20"><spawn group="badassOnlyHordeStageGS20" num="15" maxAlive="20" duration="1"/></gamestage>
+		<gamestage stage="30"><spawn group="badassOnlyHordeStageGS30" num="20" maxAlive="30" duration="1"/></gamestage>
+		<gamestage stage="40"><spawn group="badassOnlyHordeStageGS40" num="25" maxAlive="40" duration="1"/></gamestage>
+		<gamestage stage="50"><spawn group="badassOnlyHordeStageGS50" num="30" maxAlive="50" duration="1"/></gamestage>
+		<gamestage stage="75"><spawn group="badassOnlyHordeStageGS75" num="35" maxAlive="75" duration="1"/></gamestage>
+		<gamestage stage="100"><spawn group="badassOnlyHordeStageGS100" num="40" maxAlive="100" duration="1"/></gamestage>
+		<gamestage stage="150"><spawn group="badassOnlyHordeStageGS150" num="45" maxAlive="150" duration="1"/></gamestage>
+		<gamestage stage="200"><spawn group="badassOnlyHordeStageGS200" num="50" maxAlive="200" duration="1"/></gamestage>
+		<gamestage stage="300"><spawn group="badassOnlyHordeStageGS300" num="75" maxAlive="256" duration="1"/></gamestage>
+		<gamestage stage="400"><spawn group="badassOnlyHordeStageGS400" num="100" maxAlive="256" duration="1"/></gamestage>
+		<gamestage stage="500"><spawn group="badassOnlyHordeStageGS500" num="125" maxAlive="256" duration="1"/></gamestage>
+		<gamestage stage="700"><spawn group="badassOnlyHordeStageGS700" num="150" maxAlive="256" duration="1"/></gamestage>
+		<gamestage stage="900"><spawn group="badassOnlyHordeStageGS900" num="175" maxAlive="256" duration="1"/></gamestage>
+		<gamestage stage="1150"><spawn group="badassOnlyHordeStageGS1150" num="200" maxAlive="256" duration="1"/></gamestage>
+		<gamestage stage="1350"><spawn group="badassOnlyHordeStageGS1350" num="216" maxAlive="256" duration="1"/></gamestage>
+	</spawner>
+</append>
+
+
+<!--
+ZombieBadassOnlyHorde appears to be a hardcoded reference and is not called directly from an XML file. 
+These zombie groups spawn when the screamer zombie screams for backup.
+-->
+<remove xpath="/gamestages/spawner[@name='ScoutGSList']" />
+<append xpath="/gamestages">
+	<spawner name="ScoutGSList">		
+		<gamestage stage="1"><spawn group="scoutHordeStageGS1" num="1" maxAlive="1" duration="1"/></gamestage>
+		<gamestage stage="2"><spawn group="scoutHordeStageGS1" num="2" maxAlive="2" duration="1"/></gamestage>
+		<gamestage stage="4"><spawn group="scoutHordeStageGS1" num="3" maxAlive="3" duration="1"/></gamestage>
+		<gamestage stage="6"><spawn group="scoutHordeStageGS1" num="6" maxAlive="6" duration="1"/></gamestage>
+		<gamestage stage="11"><spawn group="scoutHordeStageGS1" num="9" maxAlive="9" duration="1"/></gamestage>
+		<gamestage stage="18"><spawn group="scoutHordeStageGS2" num="14" maxAlive="14" duration="1"/></gamestage>
+		<gamestage stage="29"><spawn group="scoutHordeStageGS3" num="21" maxAlive="20" duration="1"/></gamestage>
+		<gamestage stage="44"><spawn group="scoutHordeStageGS4" num="30" maxAlive="29" duration="1"/></gamestage>
+		<gamestage stage="67"><spawn group="scoutHordeStageGS5" num="42" maxAlive="40" duration="1"/></gamestage>
+		<gamestage stage="98"><spawn group="scoutHordeStageGS6" num="56" maxAlive="53" duration="1"/></gamestage>
+		<gamestage stage="140"><spawn group="scoutHordeStageGS7" num="73" maxAlive="68" duration="1"/></gamestage>
+		<gamestage stage="195"><spawn group="scoutHordeStageGS8" num="92" maxAlive="85" duration="1"/></gamestage>
+		<gamestage stage="266"><spawn group="scoutHordeStageGS9" num="114" maxAlive="103" duration="1"/></gamestage>
+		<gamestage stage="355"><spawn group="scoutHordeStageGS10" num="137" maxAlive="124" duration="1"/></gamestage>
+		<gamestage stage="463"><spawn group="scoutHordeStageGS11" num="163" maxAlive="145" duration="1"/></gamestage>
+		<gamestage stage="593"><spawn group="scoutHordeStageGS12" num="189" maxAlive="167" duration="1"/></gamestage>
+		<gamestage stage="746"><spawn group="scoutHordeStageGS13" num="217" maxAlive="190" duration="1"/></gamestage>
+		<gamestage stage="923"><spawn group="scoutHordeStageGS14" num="245" maxAlive="212" duration="1"/></gamestage>
+		<gamestage stage="1124"><spawn group="scoutHordeStageGS15" num="272" maxAlive="235" duration="1"/></gamestage>
+		<gamestage stage="1350"><spawn group="scoutHordeStageGS16" num="300" maxAlive="256" duration="1"/></gamestage>
+	</spawner>
+</append>
+
+
+
+<!-- ** remmoved in Aphpa 2 **
+<remove xpath="/gamestages/spawner[@name='SnowZombieHorde']" />
+<append xpath="/gamestages">
+	<spawner name="SnowZombieHorde">
+		<gamestage stage="1"><spawn group="zombieSnowGroupGS1" num="1" maxAlive="1" duration="1"/></gamestage>
+		<gamestage stage="50"><spawn group="zombieSnowGroupGS50" num="1" maxAlive="1" duration="1"/></gamestage>
+		<gamestage stage="100"><spawn group="zombieSnowGroupGS100" num="1" maxAlive="1" duration="1"/></gamestage>
+		<gamestage stage="200"><spawn group="zombieSnowGroupGS200" num="1" maxAlive="1" duration="1"/></gamestage>
+		<gamestage stage="400"><spawn group="zombieSnowGroupGS400" num="1" maxAlive="1" duration="1"/></gamestage>
+		<gamestage stage="800"><spawn group="zombieSnowGroupGS800" num="1" maxAlive="1" duration="1"/></gamestage>
+		<gamestage stage="1200"><spawn group="zombieSnowGroupGS1200" num="1" maxAlive="1" duration="1"/></gamestage>
+		<gamestage stage="1400"><spawn group="zombieSnowGroupGS1400" num="1" maxAlive="1" duration="1"/></gamestage>
+	</spawner>
+</append>
+-->
+
+
+<!-- new groups to add
+snufkinBombers (convert to enzombies style and hp/xp rates)
+snufkinScorcher (convert to enzombies style and hp/xp rates)
+snufkinJuggernaut (convert to enzombies style and hp/xp rates)
+snufkinHellFlyer and hell shocker (convert to enzombies style and hp/xp rates)
+--> 
+<!--
+WanderingHorde appears to be a hardcoded reference and is not called directly from an XML file. 
+These zombie groups spawn as random wandering horde groups.
+-->
+<remove xpath="/gamestages/spawner[@name='WanderingHorde']" />
+<append xpath="/gamestages">
+	<spawner name="WanderingHorde">
+		<gamestage stage="01"><spawn group="enForestGroup" 		num="10" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="02"><spawn group="enDesertGroup" 		num="10" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="03"><spawn group="enMales" 			num="10" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="04"><spawn group="enFemales" 			num="10" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="05"><spawn group="ZombieDogGroup" 	num="04" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="06"><spawn group="enBusinessGroup" 	num="10" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="07"><spawn group="enWastelandGroup" 	num="10" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="08"><spawn group="enStripperGroup" 	num="10" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="09"><spawn group="enHazmatGroup" 		num="10" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="10"><spawn group="WolfGroup" 			num="04" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="11"><spawn group="enUtilityGroup" 	num="10" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="12"><spawn group="enKhzZombiesGroup1"	num="10" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="13"><spawn group="enGoblinsGroup1"	num="15" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="14"><spawn group="enCrawlers1"		num="15" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="15"><spawn group="enJoggerGroup" 		num="10" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="16"><spawn group="enSpiderGroup" 		num="10" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="17"><spawn group="enFatassGroup" 		num="10" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="18"><spawn group="enBikerGangGroup1"	num="10" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="19"><spawn group="ZombieDogGroup" 	num="06" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="20"><spawn group="WolfPack" 			num="06" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="21"><spawn group="enDemolisherGroup"	num="01" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="22"><spawn group="enLabCreatures1"	num="06" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="23"><spawn group="enLumberFarmGroup"	num="10" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="24"><spawn group="enCrawlers2" 		num="15" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="25"><spawn group="WolfGroup" 			num="06" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="26"><spawn group="enBikerGangGroup2"	num="10" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="27"><spawn group="enSoldierGroup1"	num="10" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="28"><spawn group="enGoblinsGroup2"	num="16" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="29"><spawn group="enKhzZombiesGroup2"	num="10" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="30"><spawn group="ZombieDogGroup"		num="08" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="31"><spawn group="WolfPack" 			num="08" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="32"><spawn group="enGoblinsGroup3"	num="18" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="33"><spawn group="enBikerGangGroup3"	num="14" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="34"><spawn group="enLabCreatures2"	num="06" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="35"><spawn group="enForestGroupF"		num="08" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="36"><spawn group="enDesertGroupF"		num="08" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="37"><spawn group="enMalesF"			num="08" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="38"><spawn group="enFemalesF"			num="08" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="39"><spawn group="enStripperGroupF"	num="02" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="40"><spawn group="enWastelandGroupF"	num="08" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="41"><spawn group="enHazmatGroupF"		num="08" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="42"><spawn group="enBusinessGroupF"	num="08" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="43"><spawn group="enLumberFarmGroupF"	num="08" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="44"><spawn group="enJoggerGroupF"		num="08" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="45"><spawn group="enFootballGroup"	num="08" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="46"><spawn group="enSoldierGroup2"	num="08" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="47"><spawn group="enWightGroup"		num="05" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="48"><spawn group="enDemolisherGroup"	num="02" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="49"><spawn group="enUtilityGroupF"	num="08" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="50"><spawn group="enSoldierGroupF"	num="08" maxAlive="30" duration="09"/></gamestage>
+	</spawner>
+</append>
+
+
+<!--
+SleeperGSList appears to be a hardcoded reference and is not called directly from an XML file. 
+These zombie groups will spawn inside POIs as the default sleeper zombies, where custom zombie spawn groups have not already been defined for that location.
+-->
+<remove xpath="/gamestages/spawner[@name='SleeperGSList']" />
+<append xpath="/gamestages">
+	<spawner name="SleeperGSList">
+		<gamestage stage="1"><spawn group="sleeperHordeStageGS1" num="1" maxAlive="1" duration="1"/></gamestage>
+		<gamestage stage="2"><spawn group="sleeperHordeStageGS1" num="2" maxAlive="2" duration="1"/></gamestage>
+		<gamestage stage="3"><spawn group="sleeperHordeStageGS1" num="3" maxAlive="3" duration="1"/></gamestage>
+		<gamestage stage="5"><spawn group="sleeperHordeStageGS5" num="5" maxAlive="5" duration="1"/></gamestage>
+		<gamestage stage="10"><spawn group="sleeperHordeStageGS10" num="10" maxAlive="10" duration="1"/></gamestage>
+		<gamestage stage="20"><spawn group="sleeperHordeStageGS20" num="15" maxAlive="15" duration="1"/></gamestage>
+		<gamestage stage="30"><spawn group="sleeperHordeStageGS30" num="20" maxAlive="20" duration="1"/></gamestage>
+		<gamestage stage="40"><spawn group="sleeperHordeStageGS40" num="25" maxAlive="25" duration="1"/></gamestage>
+		<gamestage stage="50"><spawn group="sleeperHordeStageGS50" num="30" maxAlive="30" duration="1"/></gamestage>
+		<gamestage stage="75"><spawn group="sleeperHordeStageGS75" num="35" maxAlive="35" duration="1"/></gamestage>
+		<gamestage stage="100"><spawn group="sleeperHordeStageGS100" num="40" maxAlive="40" duration="1"/></gamestage>
+		<gamestage stage="150"><spawn group="sleeperHordeStageGS150" num="45" maxAlive="45" duration="1"/></gamestage>
+		<gamestage stage="200"><spawn group="sleeperHordeStageGS200" num="50" maxAlive="50" duration="1"/></gamestage>
+		<gamestage stage="300"><spawn group="sleeperHordeStageGS300" num="55" maxAlive="75" duration="1"/></gamestage>
+		<gamestage stage="400"><spawn group="sleeperHordeStageGS400" num="60" maxAlive="100" duration="1"/></gamestage>
+		<gamestage stage="500"><spawn group="sleeperHordeStageGS500" num="65" maxAlive="125" duration="1"/></gamestage>
+		<gamestage stage="700"><spawn group="sleeperHordeStageGS700" num="70" maxAlive="150" duration="1"/></gamestage>
+		<gamestage stage="900"><spawn group="sleeperHordeStageGS900" num="75" maxAlive="175" duration="1"/></gamestage>
+		<gamestage stage="1150"><spawn group="sleeperHordeStageGS1150" num="80" maxAlive="200" duration="1"/></gamestage>
+		<gamestage stage="1350"><spawn group="sleeperHordeStageGS1350" num="85" maxAlive="256" duration="1"/></gamestage>
+	</spawner>
+</append>
+
+
+<!--
+BloodMoonHorde appears to be a hardcoded reference and is not called directly from an XML file. 
+These zombie groups will spawn during the blood moon horde, which by default runs from time 22:00 to 4:00 every 7 days.
+-->
+<remove xpath="/gamestages/spawner[@name='BloodMoonHorde']" />
+<append xpath="/gamestages">
+	<spawner name="BloodMoonHorde">
+		<gamestage stage="1">
+			<spawn group="feralHordeStageGS1" num="5" maxAlive="8" duration="2"/>
+		</gamestage>
+		<gamestage stage="2">
+			<spawn group="feralHordeStageGS1" num="5" maxAlive="8" duration="2"/>
+		</gamestage>
+		<gamestage stage="4">
+			<spawn group="feralHordeStageGS1" num="10" maxAlive="8" duration="2"/>
+		</gamestage>
+		<gamestage stage="6">
+			<spawn group="feralHordeStageGS1" num="20" maxAlive="8" duration="2"/>
+		</gamestage>
+		<gamestage stage="11">
+			<spawn group="feralHordeStageGS1" num="20" maxAlive="9" duration="2" interval="10"/>
+			<spawn group="BloodmoonCreaturesGS1" num="10" maxAlive="10" duration="1" interval="10"/>
+			<spawn group="feralHordeStageGS1" num="20" maxAlive="9" duration="2"/>
+		</gamestage>
+		<gamestage stage="18">
+			<spawn group="feralHordeStageGS1" num="20" maxAlive="15" duration="2" interval="10"/>
+			<spawn group="BloodmoonCreaturesGS2" num="12" maxAlive="12" duration="1" interval="10"/>
+			<spawn group="feralHordeStageGS1" num="40" maxAlive="15" duration="2"/>
+		</gamestage>
+		<gamestage stage="30">
+			<spawn group="feralHordeStageGS2" num="50" maxAlive="22" duration="2" interval="10"/>
+			<spawn group="BloodmoonCreaturesGS3" num="14" maxAlive="14" duration="1" interval="10"/>
+			<spawn group="feralHordeStageGS3" num="70" maxAlive="22" duration="2" interval="10"/>
+		</gamestage>
+		<gamestage stage="45">
+			<spawn group="feralHordeStageGS3" num="80" maxAlive="32" duration="2" interval="10"/>
+			<spawn group="BloodmoonCreaturesGS4" num="16" maxAlive="16" duration="1" interval="10"/>
+			<spawn group="feralHordeStageGS4" num="100" maxAlive="32" duration="2" interval="10"/>
+		</gamestage>
+		<gamestage stage="70">
+			<spawn group="feralHordeStageGS4" num="110" maxAlive="45" duration="2" interval="10"/>
+			<spawn group="BloodmoonCreaturesGS5" num="18" maxAlive="18" duration="1" interval="10"/>
+			<spawn group="feralHordeStageGS5" num="130" maxAlive="45" duration="2" interval="10"/>
+		</gamestage>
+		<gamestage stage="100">
+			<spawn group="feralHordeStageGS5" num="140" maxAlive="61" duration="2" interval="10"/>
+			<spawn group="BloodmoonCreaturesGS6" num="20" maxAlive="20" duration="1" interval="10"/>
+			<spawn group="feralHordeStageGS6" num="160" maxAlive="61" duration="2" interval="10"/>
+		</gamestage>
+		<gamestage stage="140">
+			<spawn group="feralHordeStageGS6" num="170" maxAlive="80" duration="2" interval="10"/>
+			<spawn group="BloodmoonCreaturesGS7" num="22" maxAlive="22" duration="1" interval="10"/>
+			<spawn group="feralHordeStageGS7" num="190" maxAlive="80" duration="2" interval="10"/>
+		</gamestage>
+		<gamestage stage="200">
+			<spawn group="feralHordeStageGS7" num="200" maxAlive="102" duration="2" interval="10"/>
+			<spawn group="BloodmoonCreaturesGS8" num="24" maxAlive="24" duration="1" interval="10"/>
+			<spawn group="feralHordeStageGS8" num="220" maxAlive="102" duration="2" interval="10"/>
+		</gamestage>
+		<gamestage stage="270">
+			<spawn group="feralHordeStageGS8" num="230" maxAlive="128" duration="2" interval="10"/>
+			<spawn group="BloodmoonCreaturesGS9" num="26" maxAlive="26" duration="1" interval="10"/>
+			<spawn group="feralHordeStageGS9" num="250" maxAlive="128" duration="2" interval="10"/>
+		</gamestage>
+		<gamestage stage="360">
+			<spawn group="feralHordeStageGS9" num="260" maxAlive="156" duration="2" interval="10"/>
+			<spawn group="BloodmoonCreaturesGS10" num="28" maxAlive="28" duration="1" interval="10"/>
+			<spawn group="feralHordeStageGS10" num="280" maxAlive="156" duration="2" interval="10"/>
+		</gamestage>
+		<gamestage stage="475">
+			<spawn group="feralHordeStageGS10" num="290" maxAlive="187" duration="2" interval="10"/>
+			<spawn group="BloodmoonCreaturesGS11" num="30" maxAlive="30" duration="1" interval="10"/>
+			<spawn group="feralHordeStageGS11" num="310" maxAlive="187" duration="2" interval="10"/>
+		</gamestage>
+		<gamestage stage="610">
+			<spawn group="feralHordeStageGS11" num="320" maxAlive="221" duration="2" interval="10"/>
+			<spawn group="BloodmoonCreaturesGS12" num="32" maxAlive="32" duration="1" interval="10"/>
+			<spawn group="feralHordeStageGS12" num="340" maxAlive="221" duration="2" interval="10"/>
+		</gamestage>
+		<gamestage stage="770">
+			<spawn group="feralHordeStageGS12" num="350" maxAlive="256" duration="2" interval="10"/>
+			<spawn group="BloodmoonCreaturesGS13" num="34" maxAlive="34" duration="1" interval="10"/>
+			<spawn group="feralHordeStageGS13" num="370" maxAlive="256" duration="2" interval="10"/>
+		</gamestage>
+		<gamestage stage="950">
+			<spawn group="feralHordeStageGS13" num="380" maxAlive="256" duration="2" interval="10"/>
+			<spawn group="BloodmoonCreaturesGS14" num="36" maxAlive="36" duration="1" interval="10"/>
+			<spawn group="feralHordeStageGS14" num="400" maxAlive="256" duration="2" interval="10"/>
+		</gamestage>
+		<gamestage stage="1160">
+			<spawn group="feralHordeStageGS14" num="410" maxAlive="256" duration="2" interval="10"/>
+			<spawn group="BloodmoonCreaturesGS15" num="38" maxAlive="38" duration="1" interval="10"/>
+			<spawn group="feralHordeStageGS15" num="430" maxAlive="256" duration="2" interval="10"/>
+		</gamestage>
+		<gamestage stage="1400">
+			<spawn group="feralHordeStageGS15" num="440" maxAlive="256" duration="2" interval="10"/>
+			<spawn group="BloodmoonCreaturesGS16" num="40" maxAlive="40" duration="1" interval="10"/>
+			<spawn group="feralHordeStageGS16" num="460" maxAlive="256" duration="2" interval="10"/>
+		</gamestage>
+		<gamestage stage="1650">
+			<spawn group="feralHordeStageGS16" num="470" maxAlive="256" duration="2" interval="10"/>
+			<spawn group="BloodmoonCreaturesGS17" num="42" maxAlive="42" duration="1" interval="10"/>
+			<spawn group="feralHordeStageGS17" num="490" maxAlive="256" duration="2" interval="10"/>
+		</gamestage>		
+	</spawner>
+</append>
+
+		
+</ErrorNull>

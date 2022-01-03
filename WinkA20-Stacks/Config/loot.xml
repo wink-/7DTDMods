@@ -1,0 +1,11 @@
+<config>
+
+
+<!-- loot.xml - Find bycle parts in Dumpsters -->
+
+	<append xpath="/lootcontainers/lootcontainer[@name='dumpster']">
+	<item group="bicycleParts" loot_prob_template="veryLow"/>
+	<item group="schematicsVehiclesT0" loot_prob_template="veryLow"/>
+	</append>
+	
+</config>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+	<ModInfo>
+		<Name value="WinkA20-ServerControl"/>
+		<Description value="Tweaks for my server in particular."/>
+		<Author value="Wink-"/>
+		<Version value="1.0"/>
+	</ModInfo>
+</xml>
+<!-- entityclasses.xml - Adds a bike to the starter items  -->
+<!-- loot.xml - Find bycle parts in Dumpsters -->
+<!-- progression.xml - Slower progression. Raises XP Needed to Level from 11545 to 12545 -->
