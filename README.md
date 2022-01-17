@@ -3,6 +3,8 @@ https://7daystodiemods.com/alpha-20-mods/
 
 https://www.nexusmods.com/7daystodie
 
+https://community.7daystodie.com/forum/27-mods/
+
 # Links to other modders
 * Darkness Falls author https://github.com/KhaineGB
 * Vanilla Project author https://github.com/JaxTeller718
@@ -12,6 +14,7 @@ https://www.nexusmods.com/7daystodie
 * Dough's collection https://github.com/doughphunghus
 * XelaNull WhiteRiver Citizenship quests and more https://github.com/XelaNull
 * Stallionsden bringing Valmar mods https://github.com/stallionsden
+* Arramus/Oak Server side vehicles, pets, etc https://github.com/arramus
 * Trader's Network https://github.com/FuriousRamsay
 * https://github.com/RobbieW69/7DTD-Mods-A20
 * Kic's Ranger Mod https://github.com/kic99/RangerMod
