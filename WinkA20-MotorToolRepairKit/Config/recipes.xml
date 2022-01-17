@@ -1,0 +1,82 @@
+<configs>
+
+	<append xpath="/recipes/recipe[@name='resourceRepairKit']">
+		<ingredient name="resourceLeather" count="2" />
+		<ingredient name="resourceCloth" count="2" />
+	</append>
+    
+	<append xpath="/recipes">
+
+		<recipe name="resourceSteelToolRepairKit" count="1" craft_area="workbench" craft_time="10">
+			<ingredient name="meleeToolAllSteelParts" count="3"/>
+			<ingredient name="resourceForgedSteel" count="3"/>
+			<ingredient name="resourceDuctTape" count="1"/>
+			<ingredient name="resourceLeather" count="1"/>
+			<ingredient name="resourceCloth" count="1"/>
+		</recipe>
+
+		<recipe name="resourceMotorRepairKit" count="1" craft_area="workbench" craft_time="10">
+			<ingredient name="resourceForgedSteel" count="3"/>
+			<ingredient name="meleeToolAxeT3ChainsawParts" count="3"/>
+			<ingredient name="resourceDuctTape" count="2"/>
+			<ingredient name="resourceMechanicalParts" count="5"/>
+			<ingredient name="resourceOil" count="3"/>
+		</recipe>
+
+		<recipe name="resourcePistolRepairKit" count="1" craft_area="workbench" craft_time="10">
+			<ingredient name="gunHandgunT1PistolParts" count="3"/>
+			<ingredient name="resourceDuctTape" count="1"/>
+			<ingredient name="resourceCloth" count="1"/>
+			<ingredient name="resourceOil" count="1"/>
+		</recipe>
+
+		<recipe name="resourceShotgunRepairKit" count="1" craft_area="workbench" craft_time="10">
+			<ingredient name="gunShotgunT1DoubleBarrelParts" count="3"/>
+			<ingredient name="resourceDuctTape" count="1"/>
+			<ingredient name="resourceCloth" count="1"/>
+			<ingredient name="resourceOil" count="1"/>
+		</recipe>
+
+		<recipe name="resourceRifleRepairKit" count="1" craft_area="workbench" craft_time="10">
+			<ingredient name="gunRifleT1HuntingRifleParts" count="3"/>
+			<ingredient name="resourceDuctTape" count="1"/>
+			<ingredient name="resourceCloth" count="1"/>
+			<ingredient name="resourceOil" count="1"/>
+		</recipe>
+
+		<recipe name="resourceMachineGunRepairKit" count="1" craft_area="workbench" craft_time="10">
+			<ingredient name="gunMGT1AK47Parts" count="3"/>
+			<ingredient name="resourceDuctTape" count="1"/>
+			<ingredient name="resourceCloth" count="1"/>
+			<ingredient name="resourceOil" count="1"/>
+		</recipe>
+
+		<recipe name="resourceNonmetalArmorRepairKit" count="1" craft_area="workbench"> craft_time="10"
+			<ingredient name="resourceLeather" count="1"/>
+			<ingredient name="resourceCloth" count="1"/>
+			<ingredient name="resourceSewingKit" count="1"/>
+		</recipe>
+
+		<recipe name="resourceMilitaryArmorRepairKit" count="1" craft_area="workbench" craft_time="10">
+			<ingredient name="armorMilitarySetParts" count="2"/>
+			<ingredient name="resourceMilitaryFiber" count="1"/>
+			<ingredient name="resourceScrapPolymers" count="1"/>
+			<ingredient name="resourceSewingKit" count="1"/>
+		</recipe>
+		
+		<recipe name="resourceMetalArmorRepairKit" count="1" craft_area="workbench" craft_time="10">
+			<ingredient name="resourceForgedSteel" count="1"/>
+			<ingredient name="resourceSewingKit" count="1"/>
+			<ingredient name="resourceLeather" count="1"/>
+			<ingredient name="resourceCloth" count="1"/>
+		</recipe>
+
+		<recipe name="resourceBowRepairKit" count="1" craft_area="workbench" craft_time="10">
+			<ingredient name="gunBowT1WoodenBowParts" count="2"/>
+			<ingredient name="resourceDuctTape" count="1"/>
+			<ingredient name="resourceLeather" count="1"/>
+            <ingredient name="resourceMechanicalParts" count="2"/>
+		</recipe>
+
+	</append>
+</configs>

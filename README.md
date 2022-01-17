@@ -6,6 +6,7 @@ https://www.nexusmods.com/7daystodie
 https://community.7daystodie.com/forum/27-mods/
 
 # Links to other modders
+* Xyth - NPCMod https://github.com/7D2D/A20Mods
 * Darkness Falls author https://github.com/KhaineGB
 * Vanilla Project author https://github.com/JaxTeller718
 * Vehicles and The Wasteland author https://gitlab.com/bdubyah/Mods---A20
@@ -18,3 +19,4 @@ https://community.7daystodie.com/forum/27-mods/
 * Trader's Network https://github.com/FuriousRamsay
 * https://github.com/RobbieW69/7DTD-Mods-A20
 * Kic's Ranger Mod https://github.com/kic99/RangerMod
+* Iceburg's Repair kits and animals https://github.com/Iceburg71?tab=repositories

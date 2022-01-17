@@ -1,0 +1,301 @@
+<config>
+
+	<append xpath="/items">
+
+		<!-- Steel Repair Kit for tools that are made with forged steel -->
+		<item name="resourceSteelToolRepairKit">
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Msteel"/>
+			<property name="Stacknumber" value="25"/> 
+			<property name="EconomicValue" value="186"/>
+			<property name="RepairTime" value="9"/>
+			<property name="RepairAmount" value="32000"/>
+			<property name="Group" value="Resources"/>
+			<property name="ItemTypeIcon" value="tool"/>
+			<property name="CustomIcon" value="resourceRepairKit"/>
+			<!-- <property name="CustomIconTint" value="ff8d00"/> -->
+		</item>
+
+		<!-- Motor Repair Kit for Motors and some tools -->
+		<item name="resourceMotorRepairKit">
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Msteel"/>
+			<property name="Stacknumber" value="25"/> 
+			<property name="EconomicValue" value="186"/>
+			<property name="RepairTime" value="9"/>
+			<property name="RepairAmount" value="32000"/>
+			<property name="Group" value="Resources"/>
+			<property name="ItemTypeIcon" value="electric_generator"/>
+			<property name="CustomIcon" value="resourceRepairKit"/>
+			<!-- <property name="CustomIconTint" value="fff400"/> -->
+		</item>
+
+		<!-- Pistol Repair Kit for all Pistols -->
+		<item name="resourcePistolRepairKit">
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Msteel"/>
+			<property name="Stacknumber" value="25"/> 
+			<property name="EconomicValue" value="186"/>
+			<property name="RepairTime" value="9"/>
+			<property name="RepairAmount" value="32000"/>
+			<property name="Group" value="Resources"/>
+			<property name="ItemTypeIcon" value="pistol"/>
+			<property name="CustomIcon" value="resourceRepairKit"/>
+			<!-- <property name="CustomIconTint" value="93bd8c"/>		 -->
+		</item>
+
+		<!-- Shotgun Repair Kit for all Shotguns -->
+		<item name="resourceShotgunRepairKit">
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Msteel"/>
+			<property name="Stacknumber" value="25"/> 
+			<property name="EconomicValue" value="186"/>
+			<property name="RepairTime" value="9"/>
+			<property name="RepairAmount" value="32000"/>
+			<property name="Group" value="Resources"/>
+			<property name="ItemTypeIcon" value="shotgun"/>
+			<property name="CustomIcon" value="resourceRepairKit"/>
+			<!-- <property name="CustomIconTint" value="5b995b"/>		 -->
+		</item>
+
+		<!-- Rifle Repair Kit for all Rifles -->
+		<item name="resourceRifleRepairKit">
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Msteel"/>
+			<property name="Stacknumber" value="25"/> 
+			<property name="EconomicValue" value="186"/>
+			<property name="RepairTime" value="9"/>
+			<property name="RepairAmount" value="32000"/>
+			<property name="Group" value="Resources"/>
+			<property name="ItemTypeIcon" value="rifle"/>
+			<property name="CustomIcon" value="resourceRepairKit"/>
+			<!-- <property name="CustomIconTint" value="065535"/>		 -->
+		</item>
+
+		<!-- Machine Gun Repair Kit for all Machine Guns -->
+		<item name="resourceMachineGunRepairKit">
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Msteel"/>
+			<property name="Stacknumber" value="25"/> 
+			<property name="EconomicValue" value="186"/>
+			<property name="RepairTime" value="9"/>
+			<property name="RepairAmount" value="32000"/>
+			<property name="Group" value="Resources"/>
+			<property name="ItemTypeIcon" value="gunsmithing"/>
+			<property name="CustomIcon" value="resourceRepairKit"/>
+			<!-- <property name="CustomIconTint" value="bada55"/>		 -->
+		</item>
+
+		<!-- Bow Repair Kit for all Bows (except primitive) -->
+		<item name="resourceBowRepairKit">
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Msteel"/>
+			<property name="Stacknumber" value="25"/> 
+			<property name="EconomicValue" value="186"/>
+			<property name="RepairTime" value="9"/>
+			<property name="RepairAmount" value="32000"/>
+			<property name="Group" value="Resources"/>
+			<property name="ItemTypeIcon" value="archery"/>
+			<property name="CustomIcon" value="resourceRepairKit"/>
+			<!-- <property name="CustomIconTint" value="5DADE2"/>		 -->
+		</item>
+
+		<!-- Non-metal Armor Repair Kit -->
+		<item name="resourceNonmetalArmorRepairKit">
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Msteel"/>
+			<property name="Stacknumber" value="25"/> 
+			<property name="EconomicValue" value="186"/>
+			<property name="RepairTime" value="9"/>
+			<property name="RepairAmount" value="32000"/>
+			<property name="Group" value="Resources"/>
+			<property name="ItemTypeIcon" value="armor_leather"/>
+			<property name="CustomIcon" value="resourceRepairKit"/>
+			<!-- <property name="CustomIconTint" value="ed90ff"/>		 -->
+		</item>
+
+		<!-- Metal Armor Repair Kit -->
+		<item name="resourceMetalArmorRepairKit">
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Msteel"/>
+			<property name="Stacknumber" value="25"/> 
+			<property name="EconomicValue" value="186"/>
+			<property name="RepairTime" value="9"/>
+			<property name="RepairAmount" value="32000"/>
+			<property name="Group" value="Resources"/>
+			<property name="ItemTypeIcon" value="armor_iron"/>
+			<property name="CustomIcon" value="resourceRepairKit"/>
+			<!-- <property name="CustomIconTint" value="e663ff"/>		 -->
+		</item>
+
+		<!-- Military Armor Repair Kit -->
+		<item name="resourceMilitaryArmorRepairKit">
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Msteel"/>
+			<property name="Stacknumber" value="25"/> 
+			<property name="EconomicValue" value="186"/>
+			<property name="RepairTime" value="9"/>
+			<property name="RepairAmount" value="32000"/>
+			<property name="Group" value="Resources"/>
+			<property name="ItemTypeIcon" value="trophy"/>
+			<property name="CustomIcon" value="resourceRepairKit"/>
+			<!-- <property name="CustomIconTint" value="d700ff"/>		 -->
+		</item>
+
+	</append>
+
+	<!-- Fix repair time and amounts for certain parts -->	
+	<insertAfter xpath="/items/item[@name='meleeWpnSpearT3SteelSpearParts']/property[@name='EconomicValue' and @value='200']">
+			<property name="RepairTime" value="6"/>
+			<property name="RepairAmount" value="32000"/>
+	</insertAfter>
+	<insertAfter xpath="/items/item[@name='meleeWpnKnucklesT3SteelKnucklesParts']/property[@name='EconomicValue' and @value='200']">
+			<property name="RepairTime" value="6"/>
+			<property name="RepairAmount" value="32000"/>
+	</insertAfter>
+	<insertAfter xpath="/items/item[@name='meleeWpnSledgeT3SteelSledgehammerParts']/property[@name='EconomicValue' and @value='200']">
+			<property name="RepairTime" value="6"/>
+			<property name="RepairAmount" value="32000"/>
+	</insertAfter>
+	<insertAfter xpath="/items/item[@name='meleeWpnBatonT2StunBatonParts']/property[@name='Material' and @value='MmeleeWpnBatonParts']">
+			<property name="EconomicValue" value="200"/>
+			<property name="RepairTime" value="6"/>
+			<property name="RepairAmount" value="32000"/>
+	</insertAfter>
+	<insertAfter xpath="/items/item[@name='meleeWpnClubT3SteelClubParts']/property[@name='EconomicValue' and @value='200']">
+			<property name="RepairTime" value="6"/>
+			<property name="RepairAmount" value="32000"/>
+	</insertAfter>
+	<insertAfter xpath="/items/item[@name='meleeWpnBladeT3MacheteParts']/property[@name='EconomicValue' and @value='200']">
+			<property name="RepairTime" value="6"/>
+			<property name="RepairAmount" value="32000"/>
+	</insertAfter>
+	<insertAfter xpath="/items/item[@name='gunExplosivesT3RocketLauncherParts']/property[@name='EconomicValue' and @value='200']">
+			<property name="RepairTime" value="6"/>
+			<property name="RepairAmount" value="32000"/>
+	</insertAfter>
+
+
+<!-- TOOLS -->	
+	<!-- Steel Tool Parts Repair Items -->
+	<insertAfter xpath="/items/item[@name='meleeToolAxeT2SteelAxe']/property[@name='EconomicValue' and @value='700']">
+		<property name="RepairTools" value="resourceSteelToolRepairKit"/>
+	</insertAfter>
+	<set xpath="/items/item[@name='meleeToolPickT2SteelPickaxe']/property[@name='RepairTools']/@value">resourceSteelToolRepairKit</set>
+	<set xpath="/items/item[@name='meleeToolShovelT2SteelShovel']/property[@name='RepairTools']/@value">resourceSteelToolRepairKit</set>
+	<set xpath="/items/item[@name='meleeToolSalvageT2Ratchet']/property[@name='RepairTools']/@value">resourceSteelToolRepairKit</set>
+	<set xpath="/items/item[@name='meleeToolRepairT3Nailgun']/property[@name='RepairTools']/@value">resourceSteelToolRepairKit</set>
+
+	<!-- Motor Repair Kit Repair Items -->
+	<set xpath="/items/item[@name='meleeToolSalvageT3ImpactDriver']/property[@name='RepairTools']/@value">resourceMotorRepairKit</set>
+	<set xpath="/items/item[@name='meleeToolAxeT3Chainsaw']/property[@name='RepairTools']/@value">resourceMotorRepairKit</set>
+	<set xpath="/items/item[@name='meleeToolPickT3Auger']/property[@name='RepairTools']/@value">resourceMotorRepairKit</set>
+	<set xpath="/items/item[@name='smallEngine']/property[@name='RepairTools']/@value">resourceMotorRepairKit</set>
+
+<!-- Melee Weapons -->
+	<!-- Steel Spear -->
+	<insertAfter xpath="/items/item[@name='meleeWpnSpearT3SteelSpear']/property[@name='EconomicValue' and @value='700']">
+		<property name="RepairTools" value="meleeWpnSpearT3SteelSpearParts"/>
+	</insertAfter>
+	<!-- Steel Knuckles -->
+	<insertAfter xpath="/items/item[@name='meleeWpnKnucklesT3SteelKnuckles']/property[@name='HoldType' and @value='79']">
+		<property name="RepairTools" value="meleeWpnKnucklesT3SteelKnucklesParts"/>
+	</insertAfter>
+	<!-- Steel Sledge -->
+	<set xpath="/items/item[@name='meleeWpnSledgeT3SteelSledgehammer']/property[@name='RepairTools']/@value">meleeWpnSledgeT3SteelSledgehammerParts</set>
+	<!-- Steel Stun Baton -->
+	<set xpath="/items/item[@name='meleeWpnBatonT2StunBaton']/property[@name='RepairTools']/@value">meleeWpnBatonT2StunBatonParts</set>
+	<!-- Steel Club -->
+	<set xpath="/items/item[@name='meleeWpnClubT3SteelClub']/property[@name='RepairTools']/@value">meleeWpnClubT3SteelClubParts</set>
+	<!-- Steel Machete -->
+	<set xpath="/items/item[@name='meleeWpnBladeT3Machete']/property[@name='RepairTools']/@value">meleeWpnBladeT3MacheteParts</set>
+
+<!-- Bows -->
+	<!-- Bow/crossbow Parts Repair Items -->
+	<!-- <set xpath="/items/item[@name='gunBowT1WoodenBow']/property[@name='RepairTools']/@value">resourceBowRepairKit</set> -->
+	<set xpath="/items/item[@name='gunBowT3CompoundBow']/property[@name='RepairTools']/@value">resourceBowRepairKit</set>
+	<!-- <set xpath="/items/item[@name='gunBowT1IronCrossbow']/property[@name='RepairTools']/@value">resourceBowRepairKit</set> -->
+	<set xpath="/items/item[@name='gunBowT3CompoundCrossbow']/property[@name='RepairTools']/@value">resourceBowRepairKit</set>
+
+<!-- Guns -->
+	<!-- Pistol Parts Repair Items -->
+	<!-- <set xpath="/items/item[@name='gunHandgunT1Pistol']/property[@name='RepairTools']/@value">resourcePistolRepairKit</set> -->
+	<!-- <set xpath="/items/item[@name='gunHandgunT2Magnum44']/property[@name='RepairTools']/@value">resourcePistolRepairKit</set> -->
+	<set xpath="/items/item[@name='gunHandgunT3SMG5']/property[@name='RepairTools']/@value">resourcePistolRepairKit</set>
+	<set xpath="/items/item[@name='gunHandgunT3DesertVulture']/property[@name='RepairTools']/@value">resourcePistolRepairKit</set>
+
+	<!-- Shotgun Parts Repair Items -->
+	<!-- <set xpath="/items/item[@name='gunShotgunT1DoubleBarrel']/property[@name='RepairTools']/@value">resourceShotgunRepairKit</set> -->
+	<set xpath="/items/item[@name='gunShotgunT2PumpShotgun']/property[@name='RepairTools']/@value">resourceShotgunRepairKit</set>
+	<set xpath="/items/item[@name='gunShotgunT3AutoShotgun']/property[@name='RepairTools']/@value">resourceShotgunRepairKit</set>
+
+	<!-- Hunting Rifle Parts Repair Items -->
+	<!-- <set xpath="/items/item[@name='gunRifleT1HuntingRifle']/property[@name='RepairTools']/@value">resourceRifleRepairKit</set> -->
+	<set xpath="/items/item[@name='gunRifleT2LeverActionRifle']/property[@name='RepairTools']/@value">resourceRifleRepairKit</set>
+	<set xpath="/items/item[@name='gunRifleT3SniperRifle']/property[@name='RepairTools']/@value">resourceRifleRepairKit</set>
+
+	<!-- MGT Rifle Parts Repair Items -->
+	<!-- <set xpath="/items/item[@name='gunMGT1AK47']/property[@name='RepairTools']/@value">resourceMachineGunRepairKit</set> -->
+	<set xpath="/items/item[@name='gunMGT2TacticalAR']/property[@name='RepairTools']/@value">resourceMachineGunRepairKit</set>
+	<set xpath="/items/item[@name='gunMGT3M60']/property[@name='RepairTools']/@value">resourceMachineGunRepairKit</set>
+
+	<!-- Rocket Launcher Parts Repair Items -->
+	<set xpath="/items/item[@name='gunExplosivesT3RocketLauncher']/property[@name='RepairTools']/@value">gunExplosivesT3RocketLauncherParts</set>
+
+<!-- Robotics -->
+	<!-- Robotic Parts Repair Items -->
+	<set xpath="/items/item[@name='gunBotT1JunkSledge']/property[@name='RepairTools']/@value">gunBotRoboticsParts</set>
+	<set xpath="/items/item[@name='gunBotT2JunkTurret']/property[@name='RepairTools']/@value">gunBotRoboticsParts</set>
+	<set xpath="/items/item[@name='gunBotT3JunkDrone']/property[@name='RepairTools']/@value">gunBotRoboticsParts</set>
+
+	<!-- Rocket Launcher Parts Repair Items -->
+	<set xpath="/items/item[@name='gunExplosivesT3RocketLauncher']/property[@name='RepairTools']/@value">gunExplosivesT3RocketLauncherParts</set>
+
+<!-- Armor -->
+	<!-- Items fixed by Non-metal Armor Repair Kit -->
+	<!-- <set xpath="/items/item[@name='armorClothMaster']/property[@name='RepairTools']/@value">resourceNonmetalArmorRepairKit</set> -->
+	<set xpath="/items/item[@name='armorLeatherMaster']/property[@name='RepairTools']/@value">resourceNonmetalArmorRepairKit</set>
+
+	<!-- Items fixed by Metal Armor Repair Kit -->
+	<!-- <set xpath="/items/item[@name='armorScrapMaster']/property[@name='RepairTools']/@value">resourceMetalArmorRepairKit</set> -->
+	<!-- <set xpath="/items/item[@name='armorIronMaster']/property[@name='RepairTools']/@value">resourceMetalArmorRepairKit</set> -->
+	<set xpath="/items/item[@name='armorSteelMaster']/property[@name='RepairTools']/@value">resourceMetalArmorRepairKit</set>
+	<set xpath="/items/item[@name='armorMiningHelmet']/property[@name='RepairTools']/@value">resourceMetalArmorRepairKit</set>
+	<set xpath="/items/item[@name='armorFirefightersHelmet']/property[@name='RepairTools']/@value">resourceMetalArmorRepairKit</set>
+	<set xpath="/items/item[@name='armorSwatHelmet']/property[@name='RepairTools']/@value">resourceMetalArmorRepairKit</set>
+
+	<!-- Military Set Part Repair Items -->
+	<set xpath="/items/item[@name='armorMilitaryMaster']/property[@name='RepairTools']/@value">resourceMilitaryArmorRepairKit</set>
+
+</config>
+

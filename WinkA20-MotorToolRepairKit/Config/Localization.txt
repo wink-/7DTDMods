@@ -1,0 +1,71 @@
+Key,Source,Context,Changes,English
+resourceRepairKit,items,Item,New,Iron Repair Kit
+resourceRepairKitDesc,items,Item,New,"Iron Repair Kits are used to repair various items."
+resourceIceburgSteelRepairKit,items,Item,New,Steel Repair Kit
+resourceIceburgSteelRepairKitDesc,items,Item,New,"Steel Repair Kits are used to repair all Steel Tools."
+resourceIceburgMotorRepairKit,items,Item,New,Motor Repair Kit
+resourceIceburgMotorRepairKitDesc,items,Item,New,"Motor Repair Kits are used to repair all tools that have a motor on them and the Generic Motor"
+resourceIceburgPistolRepairKit,items,Item,New,Pistol Repair Kit
+resourceIceburgPistolRepairKitDesc,items,Item,New,"Pistol Repair Kits are used to repair the Pistol, Magnum 44, SMG, and Desert Vulture."
+resourceIceburgShotgunRepairKit,items,Item,New,Shotgun Repair Kit
+resourceIceburgShotgunRepairKitDesc,items,Item,New,"Shotgun Repair Kits are used to repair the Double Barrel, Pump, and Auto shotguns."
+resourceIceburgRifleRepairKit,items,Item,New,Rifle Repair Kit
+resourceIceburgRifleRepairKitDesc,items,Item,New,"Rifle Repair Kits are used to repair the Hunting, Marksman, and Sniper rifles."
+resourceIceburgMachineGunRepairKit,items,Item,New,Machine Gun Repair Kit
+resourceIceburgMachineGunRepairKitDesc,items,Item,New,"Machine Gun Repair Kits are used to repair the AK-47, Tactical AR, and M60."
+resourceIceburgBowRepairKit,items,Item,New,Bow Repair Kit
+resourceIceburgBowRepairKitDesc,items,Item,New,"Machine Gun Repair Kits are used to repair the Wooden Bow, Compound Bow, Iron Crossbow, and Compound Crossbow."
+resourceIceburgNonmetalArmorRepairKit,items,Item,New,Nonmetal Armor Repair Kit
+resourceIceburgNonmetalArmorRepairKitDesc,items,Item,New,"Non-metal Armor Repair Kits are used to repair all Cloth and Leather armor."
+resourceIceburgMetalArmorRepairKit,items,Item,New,Metal Armor Repair Kit
+resourceIceburgMetalArmorRepairKitDesc,items,Item,New,"Metal Armor Repair Kits are used to repair both Iron and Steel armor."
+resourceIceburgMilitaryArmorRepairKit,items,Item,New,Military Armor Repair Kit
+resourceIceburgMilitaryArmorRepairKitDesc,items,Item,New,"Military Armor Repair Kits are used to repair all types of Military Armor."
+
+armorClothGroupDesc,items,Clothes,New,"Light armor will encumber you a little and provides some protection against damage.\nIt will not protect you from the weather.\n\nRepair with a Nonmetal Armor Repair Kit.\nScrap to cloth."
+armorHeavyGroupDesc,items,Clothes,New,"Heavy armor will encumber you but provides good protection against damage.\nIt will not protect you from the weather.\n\nRepair with a Metal Armor Repair Kit.\nScrap to Iron."
+armorLeatherGroupDesc,items,Clothes,New,"Light armor will encumber you a little and provides some protection against damage.\nIt will not protect you from the weather.\n\nRepair with a Nonmetal Armor Repair Kit.\nScrap to leather."
+armorMilitaryGroupDesc,items,Clothes,New,"Light armor will encumber you a little and provides some protection against damage.\nIt will not protect you from the weather.\n\nRepair with a Military Armor Repair Kit.\nScrap to military armor parts."
+armorMilitaryStealthBootsDesc,items,Clothes,New,"These military stealth boots have no stamina use penalty and muffle noise from movement.\n\nRepair with a Military Armor Repair Kit.\nScrap to military armor parts.."
+
+meleeWpnClubT3SteelClubDesc,items,Melee,New,"Steel clubs are very durable and hard-hitting.\n\nRepair with Steel Club Parts.\nScrap to Steel Club Parts."
+meleeWpnKnucklesT3SteelKnucklesDesc,items,Melee,New,"Protect your hands and put some weight into those swings. These blades can also be useful for gutting animals.\n\nRepair with Steel Knuckles parts.\nScrap to Steel Knuckles parts."
+meleeWpnSledgeT3SteelSledgehammerDesc,items,Melee,New,"The sledgehammer is one of the best weapons for cracking skulls.\n\nRepair with Steel Sledgehammer parts.\nScrap to Steel Sledgehammer parts."
+meleeWpnSpearT3SteelSpearDesc,items,Melee,New,"Spears have more range than other weapons and can also be thrown.\n\nRepair with Steel Spear parts.\nScrap to Steel Spear parts."
+meleeWpnBladeT3MacheteDesc,items,Melee,New,"Great for chopping zombies and sometimes trees and gutting animals for meat.\nRegular attacks cause 1 Bleeding Wound and power attacks at least 2.\nRepair with Machete parts.\nScrap to Machete parts."
+meleeWpnBatonT2StunBatonDesc,items,Melee,New,"Goes zap.\n\nRepair with Stun Baton parts.\nScrap to Stun Baton parts."
+
+gunHandgunT1PistolDesc,items,Gun,New,"A basic pistol that uses 9mm ammo.\n\nRepair with a Pistol Repair Kit.\nScrap to Handgun Parts."
+gunHandgunT2Magnum44Desc,items,Gun,New,"The .44 Magnum is the king of handguns. It's the most powerful but makes the most noise. Wield this bad boy and make Clint proud.\n\nRepair with a Pistol Repair Kit.\nScrap to Handgun Parts."
+gunHandgunT3DesertVultureDesc,items,Gun,New,"This heavy pistol uses .44 Magnum ammo.\n\nRepair with a Pistol Repair Kit.\nScrap to Handgun Parts."
+gunHandgunT3SMG5Desc,items,Gun,New,"This submachine gun uses 9mm ammo.\n\nRepair with a Pistol Repair Kit.\nScrap to Handgun Parts."
+
+gunMGT1AK47Desc,items,Gun,New,"This badass AK-47 Machine Gun uses 7.62mm ammo.\n\nRepair with a Machine Gun Repair Kit.\nScrap to Machine Gun Parts."
+gunMGT2TacticalARDesc,items,Gun,New,"This Tactical Assault Rifle uses 7.62mm ammo.\n\nRepair with a Machine Gun Repair Kit.\nScrap to Machine Gun Parts."
+gunMGT3M60Desc,items,Gun,New,"Machine guns are somewhat cumbersome to use but excel at automatic fire. This one uses 7.62mm ammo.\n\nRepair with a Machine Gun Repair Kit.\nScrap to Machine Gun Parts."
+
+gunRifleT1HuntingRifleDesc,items,Gun,New,"This common farmer's hunting rifle uses 7.62mm ammo.\n\nRepair with a Rifle Repair Kit.\nScrap to Rifle parts."
+gunRifleT2MarksmanRifleDesc,items,Gun,New,"This marksman's rifle uses 7.62mm ammo and is your first choice if you want to make that shot count.\n\nRepair with a Rifle Repair Kit.\nScrap to Rifle parts."
+gunRifleT3SniperRifleDesc,items,Gun,New,"This high precision, long ranged rifle is perfect for sniping enemies at great distances.\n\nRepair with a Rifle Repair Kit.\nScrap to Rifle parts."
+
+gunShotgunT1DoubleBarrelDesc,items,Gun,New,"A rusty old double barrel shotgun, great for close range carnage.\n\nRepair with a Shotgun Repair Kit.\nScrap to Shotgun Parts."
+gunShotgunT2PumpShotgunDesc,items,Gun,New,"A long-barreled shotgun with pump action loading .\n\nRepair with a Shotgun Repair Kit.\nScrap to Shotgun Parts."
+gunShotgunT3AutoShotgunDesc,items,Gun,New,"This semi automatic shotgun is a rare and devasting short range weapon capable of making minced meat out of anything in its path.\n\nRepair with a Shotgun Repair Kit.\nScrap to Shotgun Parts."
+
+gunBowT1IronCrossbowDesc,items,Gun,New,"A crossbow is slow to reload but does more damage than a bow.\nThis weapon can be fired underwater.\nHold reload to use alternate ammo.\nRepair with a Bow Repair Kit.\nScrap to Bow / Crossbow Parts."
+gunBowT1WoodenBowDesc,items,Gun,New,"Good for hunting and killing zombies. Uses arrows for ammunition.\nHold reload to use alternate ammo.\n\nRepair with a Bow Repair Kit.\nScrap to Bow / Crossbow Parts."
+gunBowT3CompoundBowDesc,items,Gun,New,"A compound bow does more damage and arrows fly straighter which makes it easier to aim.\n\nRepair with a Bow Repair Kit.\nScrap to Bow / Crossbow Parts."
+gunBowT3CompoundCrossbowDesc,items,Gun,New,"A compound crossbow is slow to reload but does more damage than a crossbow.\nThis weapon can be fired underwater.\nHold reload to use alternate ammo.\nRepair with a Bow Repair Kit.\nScrap to Bow / Crossbow Parts."
+
+gunExplosivesT3RocketLauncherDesc,items,Gun,New,"A Rocket Launcher shoots rocket propelled grenades.\n\nRepair with Rocket Launcher parts.\nScrap to Rocket Launcher parts."
+
+meleeToolAxeT2SteelAxeDesc,items,Tool,New,"The steel axe has a durable blade and is great for harvesting wood.\n\nRepair with a Steel Repair Kit.\nScrap to Steel Tool parts."
+meleeToolPickT2SteelPickaxe,items,Tool,New,"The steel pickaxe is best for breaking stone and harvesting minerals.\n\nRepair with a Steel Repair Kit.\nScrap to Steel Tool parts."
+meleeToolRepairT3NailgunDesc,items,Tool,New,"The nail gun is the best tool for repairing and upgrading base walls and not a bad weapon to boot if you have nails.\n\nRepair with a Steel Repair Kit.\nScrap to Mechanical parts."
+meleeToolShovelT2SteelShovelDesc,items,Tool,New,"The steel shovel is very durable and the ideal tool for digging through earth, sand or snow.\n\nRepair with a Steel Repair Kit.\nScrap to Steel Tool parts."
+meleeToolSalvageT2RatchetDesc,items,Tool,New,"Great for disassembling mechanical devices like cars, air conditioners and more.\n\nRepair with a Steel Repair Kit.\nScrap to Steel Tool Parts."
+
+meleeToolSalvageT3ImpactDriverDesc,items,Tool,New,"Great for disassembling mechanical devices like cars, air conditioners and more.\n\nRepair with a Motor Repair Kit.\nScrap to Motor Tool Parts."
+meleeToolAxeT3ChainsawDesc,items,Tool,New,"Chop down the biggest trees or zombies faster than Paul Bunyan with this great chainsaw that uses gasoline for fuel.\n\nRepair with a Motor Repair Kit.\nScrap to Motor Tool Parts."
+meleeToolPickT3AugerDesc,items,Tool,New,"Rock out with your auger out and be the envy of every miner when they see you sporting this sexy gas-powered auger.\n\nRepair with a Motor Repair Kit.\nScrap to Motor Tool Parts."
+smallEngineDesc,items,Tool,New,"A common part for a vehicles or generators.\n\nRepair with a Motor Repair Kit."
