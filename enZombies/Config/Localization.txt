@@ -3,88 +3,88 @@ Key,Source,Context,UsedInMainMenu,NoTranslate,English
 qc_GoblinRaid,items,Quest - Challenge,,,Goblin Raid,,
 challenge_GoblinRaid_desc,items,Quest - Challenge,,,A note with 'goblin threat' scribbled on one side and a message on the other..,,
 challenge_GoblinRaid,Quest,Challenge Info,,,Goblin Raid
-challenge_GoblinRaid_subtitle,Quest,Challenge Info,,,Kill the Goblins
-challenge_GoblinRaid_offer,Quest,Challenge Info,,,"We've sighted a band of goblins terrorizing the nearby survivalist camps. These boogers may be small, but watch out for their numbers. Reward waiting for you if you can clear this threat.\n\n* Kill the Goblins *"
+challenge_GoblinRaid_subtitle,Quest,Challenge Info,,,Kill the Pygmys
+challenge_GoblinRaid_offer,Quest,Challenge Info,,,"We've sighted a band of Pygmys terrorizing the nearby survivalist camps. These boogers may be small, but watch out for their numbers. Reward waiting for you if you can clear this threat.\n\n* Kill the Pygmys *"
 
-qc_ForestGoblinRaid1,items,Quest - Challenge,,,Forest Goblin Raid,,
-challenge_ForestGoblinRaid1_desc,items,Quest - Challenge,,,A note with 'forest goblin threat' scribbled on one side and a message on the other..,,
-challenge_ForestGoblinRaid1,Quest,Challenge Info,,,Forest Goblin Raid
-challenge_ForestGoblinRaid1_offer,Quest,Challenge Info,,,"We've sighted a band of forest goblins terrorizing the nearby survivalist camps. Please clear this threat.\n\n* Kill the Forest Goblins *"
-challenge_ForestGoblinRaid1_subtitle,Quest,Challenge Info,,,Kill the Forest Goblins
+qc_ForestGoblinRaid1,items,Quest - Challenge,,,Forest Pygmy Raid,,
+challenge_ForestGoblinRaid1_desc,items,Quest - Challenge,,,A note with 'forest Pygmy threat' scribbled on one side and a message on the other..,,
+challenge_ForestGoblinRaid1,Quest,Challenge Info,,,Forest Pygmy Raid
+challenge_ForestGoblinRaid1_offer,Quest,Challenge Info,,,"We've sighted a band of forest Pygmys terrorizing the nearby survivalist camps. Please clear this threat.\n\n* Kill the Forest Pygmys *"
+challenge_ForestGoblinRaid1_subtitle,Quest,Challenge Info,,,Kill the Forest Pygmys
 
-qc_ForestGoblinRaid2,items,Quest - Challenge,,,Forest Goblin Trail,,
-challenge_ForestGoblinRaid2,Quest,Challenge Info,,,Forest Goblin Trail
-challenge_ForestGoblinRaid2_offer,Quest,Challenge Info,,,"The goblins you cleared were following a hidden trail. Clear it out and find out where the trail leads.\n\n* Clear the Forest Goblin Trail *"
-challenge_ForestGoblinRaid2_subtitle,Quest,Challenge Info,,,Clear the Forest Goblin Trail
+qc_ForestGoblinRaid2,items,Quest - Challenge,,,Forest Pygmy Trail,,
+challenge_ForestGoblinRaid2,Quest,Challenge Info,,,Forest Pygmy Trail
+challenge_ForestGoblinRaid2_offer,Quest,Challenge Info,,,"The Pygmys you cleared were following a hidden trail. Clear it out and find out where the trail leads.\n\n* Clear the Forest Pygmy Trail *"
+challenge_ForestGoblinRaid2_subtitle,Quest,Challenge Info,,,Clear the Forest Pygmy Trail
 
-qc_ForestGoblinRaid3,items,Quest - Challenge,,,Forest Goblin Camp,,
-challenge_ForestGoblinRaid3,Quest,Challenge Info,,,Forest Goblin Camp
-challenge_ForestGoblinRaid3_offer,Quest,Challenge Info,,,"That goblin trail leads to their camp! Clear out their camp - but watch out, there are reports of giants leading their ranks. Reward waiting for you if you can do this.\n\n* Clear the Forest Goblin Camp *"
-challenge_ForestGoblinRaid3_subtitle,Quest,Challenge Info,,,Clear the Forest Goblin Camp
+qc_ForestGoblinRaid3,items,Quest - Challenge,,,Forest Pygmy Camp,,
+challenge_ForestGoblinRaid3,Quest,Challenge Info,,,Forest Pygmy Camp
+challenge_ForestGoblinRaid3_offer,Quest,Challenge Info,,,"That Pygmy trail leads to their camp! Clear out their camp - but watch out, there are reports of giants leading their ranks. Reward waiting for you if you can do this.\n\n* Clear the Forest Pygmy Camp *"
+challenge_ForestGoblinRaid3_subtitle,Quest,Challenge Info,,,Clear the Forest Pygmy Camp
 
-qc_DesertGoblinRaid1,items,Quest - Challenge,,,Desert Goblin Raid,,
-challenge_DesertGoblinRaid1_desc,items,Quest - Challenge,,,A note with 'desert goblin threat' scribbled on one side and a message on the other..,,
-challenge_DesertGoblinRaid1,Quest,Challenge Info,,,Desert Goblin Raid
-challenge_DesertGoblinRaid1_offer,Quest,Challenge Info,,,"There's a group of combative goblins from the desert threatening nearby camps. Please please clear out these intruders.\n\n* Kill the Desert Goblins *"
-challenge_DesertGoblinRaid1_subtitle,Quest,Challenge Info,,,Kill the Desert Goblins
+qc_DesertGoblinRaid1,items,Quest - Challenge,,,Desert Pygmy Raid,,
+challenge_DesertGoblinRaid1_desc,items,Quest - Challenge,,,A note with 'desert Pygmy threat' scribbled on one side and a message on the other..,,
+challenge_DesertGoblinRaid1,Quest,Challenge Info,,,Desert Pygmy Raid
+challenge_DesertGoblinRaid1_offer,Quest,Challenge Info,,,"There's a group of combative Pygmys from the desert threatening nearby camps. Please please clear out these intruders.\n\n* Kill the Desert Pygmys *"
+challenge_DesertGoblinRaid1_subtitle,Quest,Challenge Info,,,Kill the Desert Pygmys
 
-qc_DesertGoblinRaid2,items,Quest - Challenge,,,Desert Goblin Trail,,
-challenge_DesertGoblinRaid2,Quest,Challenge Info,,,Desert Goblin Trail
-challenge_DesertGoblinRaid2_offer,Quest,Challenge Info,,,"These desert goblins seemed to be following a trail.. which could lead to their hideout. Go find out and be ready battle more of these dusty devils!\n\n* Clear the Desert Goblin Trail *"
-challenge_DesertGoblinRaid2_subtitle,Quest,Challenge Info,,,Clear the Desert Goblin Trail
+qc_DesertGoblinRaid2,items,Quest - Challenge,,,Desert Pygmy Trail,,
+challenge_DesertGoblinRaid2,Quest,Challenge Info,,,Desert Pygmy Trail
+challenge_DesertGoblinRaid2_offer,Quest,Challenge Info,,,"These desert Pygmys seemed to be following a trail.. which could lead to their hideout. Go find out and be ready battle more of these dusty devils!\n\n* Clear the Desert Pygmy Trail *"
+challenge_DesertGoblinRaid2_subtitle,Quest,Challenge Info,,,Clear the Desert Pygmy Trail
 
-qc_DesertGoblinRaid3,items,Quest - Challenge,,,Desert Goblin Camp,,
-challenge_DesertGoblinRaid3,Quest,Challenge Info,,,Desert Goblin Camp
-challenge_DesertGoblinRaid3_offer,Quest,Challenge Info,,,"The goblin trail does lead to their hidelout! If you can clear them all out for good, a large reward will be waiting. Watch out for giants - these goblins seem to have befriended them. \n\n* Clear the Desert Goblin hideout *"
-challenge_DesertGoblinRaid3_subtitle,Quest,Challenge Info,,,Clear the Desert Goblin Camp
+qc_DesertGoblinRaid3,items,Quest - Challenge,,,Desert Pygmy Camp,,
+challenge_DesertGoblinRaid3,Quest,Challenge Info,,,Desert Pygmy Camp
+challenge_DesertGoblinRaid3_offer,Quest,Challenge Info,,,"The Pygmy trail does lead to their hidelout! If you can clear them all out for good, a large reward will be waiting. Watch out for giants - these Pygmys seem to have befriended them. \n\n* Clear the Desert Pygmy hideout *"
+challenge_DesertGoblinRaid3_subtitle,Quest,Challenge Info,,,Clear the Desert Pygmy Camp
 
-qc_SnowGoblinRaid1,items,Quest - Challenge,,,Snow Goblin Raid,,
-challenge_SnowGoblinRaid1_desc,items,Quest - Challenge,,,A note with 'snow goblin threat' scribbled on one side and a message on the other..,,
-challenge_SnowGoblinRaid1,Quest,Challenge Info,,,Snow Goblin Raid
-challenge_SnowGoblinRaid1_offer,Quest,Challenge Info,,,"There's an agressive group of snow goblins disturbing an important trading outpost nearby. Please get rid of this threat.\n\n* Kill the Snow Goblins *"
-challenge_SnowGoblinRaid1_subtitle,Quest,Challenge Info,,,Kill the Snow Goblins
+qc_SnowGoblinRaid1,items,Quest - Challenge,,,Snow Pygmy Raid,,
+challenge_SnowGoblinRaid1_desc,items,Quest - Challenge,,,A note with 'snow Pygmy threat' scribbled on one side and a message on the other..,,
+challenge_SnowGoblinRaid1,Quest,Challenge Info,,,Snow Pygmy Raid
+challenge_SnowGoblinRaid1_offer,Quest,Challenge Info,,,"There's an agressive group of snow Pygmys disturbing an important trading outpost nearby. Please get rid of this threat.\n\n* Kill the Snow Pygmys *"
+challenge_SnowGoblinRaid1_subtitle,Quest,Challenge Info,,,Kill the Snow Pygmys
 
-qc_SnowGoblinRaid2,items,Quest - Challenge,,,Snow Goblin Trail,,
-challenge_SnowGoblinRaid2,Quest,Challenge Info,,,Snow Goblin Trail
-challenge_SnowGoblinRaid2_offer,Quest,Challenge Info,,,"Your fight with the snow goblins revealed a hidden trail. It might lead to their camp. Be prepared to take on more goblins.\n\n* Clear the Snow Goblin Trail *"
-challenge_SnowGoblinRaid2_subtitle,Quest,Challenge Info,,,Clear the Snow Goblin Trail
+qc_SnowGoblinRaid2,items,Quest - Challenge,,,Snow Pygmy Trail,,
+challenge_SnowGoblinRaid2,Quest,Challenge Info,,,Snow Pygmy Trail
+challenge_SnowGoblinRaid2_offer,Quest,Challenge Info,,,"Your fight with the snow Pygmys revealed a hidden trail. It might lead to their camp. Be prepared to take on more Pygmys.\n\n* Clear the Snow Pygmy Trail *"
+challenge_SnowGoblinRaid2_subtitle,Quest,Challenge Info,,,Clear the Snow Pygmy Trail
 
-qc_SnowGoblinRaid3,items,Quest - Challenge,,,Snow Goblin Camp,,
-challenge_SnowGoblinRaid3,Quest,Challenge Info,,,Snow Goblin Camp
-challenge_SnowGoblinRaid3_offer,Quest,Challenge Info,,,"The goblin trail leads to their camp! There is a big reward if you can take it out. But be careful, we've heard that giants have sided with these snow goblins. \n\n* Clear the Snow Goblin Camp *"
-challenge_SnowGoblinRaid3_subtitle,Quest,Challenge Info,,,Clear the Snow Goblin Camp
+qc_SnowGoblinRaid3,items,Quest - Challenge,,,Snow Pygmy Camp,,
+challenge_SnowGoblinRaid3,Quest,Challenge Info,,,Snow Pygmy Camp
+challenge_SnowGoblinRaid3_offer,Quest,Challenge Info,,,"The Pygmy trail leads to their camp! There is a big reward if you can take it out. But be careful, we've heard that giants have sided with these snow Pygmys. \n\n* Clear the Snow Pygmy Camp *"
+challenge_SnowGoblinRaid3_subtitle,Quest,Challenge Info,,,Clear the Snow Pygmy Camp
 
-qc_BurntGoblinRaid1,items,Quest - Challenge,,,Red Goblin Raid,,
-challenge_BurntGoblinRaid1_desc,items,Quest - Challenge,,,A note with 'red goblin threat' scribbled on one side and a message on the other..,,
-challenge_BurntGoblinRaid1,Quest,Challenge Info,,,Red Goblin Raid
-challenge_BurntGoblinRaid1_offer,Quest,Challenge Info,,,"There are reports of red goblins running around trying to torch nearby civilan bases. Please get rid of this threat.\n\n* Kill the Red Goblins *"
-challenge_BurntGoblinRaid1_subtitle,Quest,Challenge Info,,,Kill the Red Goblins
+qc_BurntGoblinRaid1,items,Quest - Challenge,,,Red Pygmy Raid,,
+challenge_BurntGoblinRaid1_desc,items,Quest - Challenge,,,A note with 'red Pygmy threat' scribbled on one side and a message on the other..,,
+challenge_BurntGoblinRaid1,Quest,Challenge Info,,,Red Pygmy Raid
+challenge_BurntGoblinRaid1_offer,Quest,Challenge Info,,,"There are reports of red Pygmys running around trying to torch nearby civilan bases. Please get rid of this threat.\n\n* Kill the Red Pygmys *"
+challenge_BurntGoblinRaid1_subtitle,Quest,Challenge Info,,,Kill the Red Pygmys
 
-qc_BurntGoblinRaid2,items,Quest - Challenge,,,Red Goblin Trail,,
-challenge_BurntGoblinRaid2,Quest,Challenge Info,,,Red Goblin Trail
-challenge_BurntGoblinRaid2_offer,Quest,Challenge Info,,,"The red goblins seemed to be following a secret trail.. which might lead to their hideout. Follow the trail and clear out any more of these goblins you encounter.\n\n* Clear the Red Goblin Trail *"
-challenge_BurntGoblinRaid2_subtitle,Quest,Challenge Info,,,Clear the Red Goblin Trail
+qc_BurntGoblinRaid2,items,Quest - Challenge,,,Red Pygmy Trail,,
+challenge_BurntGoblinRaid2,Quest,Challenge Info,,,Red Pygmy Trail
+challenge_BurntGoblinRaid2_offer,Quest,Challenge Info,,,"The red Pygmys seemed to be following a secret trail.. which might lead to their hideout. Follow the trail and clear out any more of these Pygmys you encounter.\n\n* Clear the Red Pygmy Trail *"
+challenge_BurntGoblinRaid2_subtitle,Quest,Challenge Info,,,Clear the Red Pygmy Trail
 
-qc_BurntGoblinRaid3,items,Quest - Challenge,,,Red Goblin Hideout,,
-challenge_BurntGoblinRaid3,Quest,Challenge Info,,,Red Goblin Hideout
-challenge_BurntGoblinRaid3_offer,Quest,Challenge Info,,,"This goblin trail does indeed lead to their hideout! Eradicate it off the map and there will be a large reward. We've heard the area is gaurded by giants so it's going to be a tough fight. Good luck. \n\n* Clear the Red Goblin Hideout *"
-challenge_BurntGoblinRaid3_subtitle,Quest,Challenge Info,,,Clear the Red Goblin Hideout
+qc_BurntGoblinRaid3,items,Quest - Challenge,,,Red Pygmy Hideout,,
+challenge_BurntGoblinRaid3,Quest,Challenge Info,,,Red Pygmy Hideout
+challenge_BurntGoblinRaid3_offer,Quest,Challenge Info,,,"This Pygmy trail does indeed lead to their hideout! Eradicate it off the map and there will be a large reward. We've heard the area is gaurded by giants so it's going to be a tough fight. Good luck. \n\n* Clear the Red Pygmy Hideout *"
+challenge_BurntGoblinRaid3_subtitle,Quest,Challenge Info,,,Clear the Red Pygmy Hideout
 
-qc_WastelandGoblinRaid1,items,Quest - Challenge,,,Wasteland Goblin Raid,,
-challenge_WastelandGoblinRaid1_desc,items,Quest - Challenge,,,A note with 'wasteland goblin threat' scribbled on one side and a message on the other..,,
-challenge_WastelandGoblinRaid1,Quest,Challenge Info,,,Wasteland Goblin Raid
-challenge_WastelandGoblinRaid1_offer,Quest,Challenge Info,,,"There are reports of goblins from the wasteland attacking nearby survivor camps. Please get rid of this threat.\n\n* Kill the Wasteland Goblins *"
-challenge_WastelandGoblinRaid1_subtitle,Quest,Challenge Info,,,Kill the Wasteland Goblins
+qc_WastelandGoblinRaid1,items,Quest - Challenge,,,Wasteland Pygmy Raid,,
+challenge_WastelandGoblinRaid1_desc,items,Quest - Challenge,,,A note with 'wasteland Pygmy threat' scribbled on one side and a message on the other..,,
+challenge_WastelandGoblinRaid1,Quest,Challenge Info,,,Wasteland Pygmy Raid
+challenge_WastelandGoblinRaid1_offer,Quest,Challenge Info,,,"There are reports of Pygmys from the wasteland attacking nearby survivor camps. Please get rid of this threat.\n\n* Kill the Wasteland Pygmys *"
+challenge_WastelandGoblinRaid1_subtitle,Quest,Challenge Info,,,Kill the Wasteland Pygmys
 
-qc_WastelandGoblinRaid2,items,Quest - Challenge,,,Wasteland Goblin Trail,,
-challenge_WastelandGoblinRaid2,Quest,Challenge Info,,,Wasteland Goblin Trail
-challenge_WastelandGoblinRaid2_offer,Quest,Challenge Info,,,"The wasteland goblins were guarding a hidden trail. Could this lead to their base? Check out this trail and get rid of any more goblins you might encounter.\n\n* Clear the Wasteland Goblin Trail *"
-challenge_WastelandGoblinRaid2_subtitle,Quest,Challenge Info,,,Clear the Wasteland Goblin Trail
+qc_WastelandGoblinRaid2,items,Quest - Challenge,,,Wasteland Pygmy Trail,,
+challenge_WastelandGoblinRaid2,Quest,Challenge Info,,,Wasteland Pygmy Trail
+challenge_WastelandGoblinRaid2_offer,Quest,Challenge Info,,,"The wasteland Pygmys were guarding a hidden trail. Could this lead to their base? Check out this trail and get rid of any more Pygmys you might encounter.\n\n* Clear the Wasteland Pygmy Trail *"
+challenge_WastelandGoblinRaid2_subtitle,Quest,Challenge Info,,,Clear the Wasteland Pygmy Trail
 
-qc_WastelandGoblinRaid3,items,Quest - Challenge,,,Wasteland Goblin Hideout,,
-challenge_WastelandGoblinRaid3,Quest,Challenge Info,,,Wasteland Goblin Hideout
-challenge_WastelandGoblinRaid3_offer,Quest,Challenge Info,,,"The goblin trail did in fact connect to their base! You will be greatly rewarded if you can destroy their base. Watch out - as there's reports that these wasteland goblins have sided with some armored giants! Good luck. \n\n* Clear the Wasteland Goblin Hideout *"
-challenge_WastelandGoblinRaid3_subtitle,Quest,Challenge Info,,,Clear the Wasteland Goblin Hideout
+qc_WastelandGoblinRaid3,items,Quest - Challenge,,,Wasteland Pygmy Hideout,,
+challenge_WastelandGoblinRaid3,Quest,Challenge Info,,,Wasteland Pygmy Hideout
+challenge_WastelandGoblinRaid3_offer,Quest,Challenge Info,,,"The Pygmy trail did in fact connect to their base! You will be greatly rewarded if you can destroy their base. Watch out - as there's reports that these wasteland Pygmys have sided with some armored giants! Good luck. \n\n* Clear the Wasteland Pygmy Hideout *"
+challenge_WastelandGoblinRaid3_subtitle,Quest,Challenge Info,,,Clear the Wasteland Pygmy Hideout
 
 qc_BusinessmanRaid1,items,Quest - Challenge,,,Business Meet Gone Wrong,,
 challenge_BusinessmanRaid1_desc,items,Quest - Challenge,,,A note with 'business meeting' written on one side and some details on the other..,,
@@ -122,9 +122,9 @@ enBurntFemaleFlamer,entityclasses,Entity,,,Flaming Freda,,
 enBurntFemaleFlamerFeral,entityclasses,Entity,,,Flaming Freda Feral,,
 enBurntFemaleFlamerRadiated,entityclasses,Entity,,,Flaming Freda Radiated,,
 enBurntGiant,entityclasses,Entity,,,Red Giant,,
-enBurntGoblin1,entityclasses,Entity,,,Red Goblin1,,
-enBurntGoblin2,entityclasses,Entity,,,Red Goblin2,,
-enBurntGoblin3,entityclasses,Entity,,,Red Goblin3,,
+enBurntGoblin1,entityclasses,Entity,,,Red Pygmy,,
+enBurntGoblin2,entityclasses,Entity,,,Red Pygmy,,
+enBurntGoblin3,entityclasses,Entity,,,Red Pygmy,,
 enBurntMale1,entityclasses,Entity,,,Toasty Tom,,
 enBurntMale1Crawler,entityclasses,Entity,,,Toasty Tom Crawler,,
 enBurntMale1Feral,entityclasses,Entity,,,Toasty Tom Feral,,
@@ -193,9 +193,9 @@ enDesertFemale4Crawler,entityclasses,Entity,,,Hobo Helen Crawler,,
 enDesertFemale4Feral,entityclasses,Entity,,,Hobo Helen Feral,,
 enDesertFemale4Radiated,entityclasses,Entity,,,Hobo Helen Radiated,,
 enDesertGiant,entityclasses,Entity,,,Desert Giant,,
-enDesertGoblin1,entityclasses,Entity,,,Desert Goblin1,,
-enDesertGoblin2,entityclasses,Entity,,,Desert Goblin2,,
-enDesertGoblin3,entityclasses,Entity,,,Desert Goblin3,,
+enDesertGoblin1,entityclasses,Entity,,,Desert Pygmy,,
+enDesertGoblin2,entityclasses,Entity,,,Desert Pygmy,,
+enDesertGoblin3,entityclasses,Entity,,,Desert Pygmy,,
 enDesertMale1,entityclasses,Entity,,,Dusty Devon,,
 enDesertMale1Crawler,entityclasses,Entity,,,Dusty Devon Crawler,,
 enDesertMale1Feral,entityclasses,Entity,,,Dusty Devon Feral,,
@@ -319,9 +319,9 @@ enForestHikerMale2Crawler,entityclasses,Entity,,,Hiker Hudson Crawler,,
 enForestHikerMale2Feral,entityclasses,Entity,,,Hiker Hudson Feral,,
 enForestHikerMale2Radiated,entityclasses,Entity,,,Hiker Hudson Radiated,,
 enForestGiant,entityclasses,Entity,,,Forest Giant,,
-enForestGoblin1,entityclasses,Entity,,,Forest Goblin1,,
-enForestGoblin2,entityclasses,Entity,,,Forest Goblin2,,
-enForestGoblin3,entityclasses,Entity,,,Forest Goblin3,,
+enForestGoblin1,entityclasses,Entity,,,Forest Pygmy,,
+enForestGoblin2,entityclasses,Entity,,,Forest Pygmy,,
+enForestGoblin3,entityclasses,Entity,,,Forest Pygmy,,
 enHazmatFemale1,entityclasses,Entity,,,Infect Eva,,
 enHazmatFemale1Crawler,entityclasses,Entity,,,Infected Eva Crawler,,
 enHazmatFemale1Feral,entityclasses,Entity,,,Infected Eva Feral,,
@@ -444,9 +444,9 @@ enSnowMaleCamoCrawler,entityclasses,Entity,,,Snowy Snyder Crawler,,
 enSnowMaleCamoFeral,entityclasses,Entity,,,Snowy Snyder Feral,,
 enSnowMaleCamoRadiated,entityclasses,Entity,,,Snowy Snyder Radiated,,
 enSnowGiant,entityclasses,Entity,,,Snow Giant,,
-enSnowGoblin1,entityclasses,Entity,,,Snow Goblin1,,
-enSnowGoblin2,entityclasses,Entity,,,Snow Goblin2,,
-enSnowGoblin3,entityclasses,Entity,,,Snow Goblin3,,
+enSnowGoblin1,entityclasses,Entity,,,Snow Pygmy,,
+enSnowGoblin2,entityclasses,Entity,,,Snow Pygmy,,
+enSnowGoblin3,entityclasses,Entity,,,Snow Pygmy,,
 enSnowSpider,entityclasses,Entity,,,Bouncy Burk,,
 enSnowSpiderFeral,entityclasses,Entity,,,Bouncy Burk Feral,,
 enSnowSpiderRadiated,entityclasses,Entity,,,Bouncy Burk Radiated,,
@@ -527,9 +527,9 @@ enWastelandFemaleCrazyCrawler,entityclasses,Entity,,,Crazy Kathy Crawler,,
 enWastelandFemaleCrazyFeral,entityclasses,Entity,,,Crazy Kathy Feral,,
 enWastelandFemaleCrazyRadiated,entityclasses,Entity,,,Crazy Kathy Radiated,,
 enWastelandGiant,entityclasses,Entity,,,Wasteland Giant,,
-enWastelandGoblin1,entityclasses,Entity,,,Wasteland Goblin1,,
-enWastelandGoblin2,entityclasses,Entity,,,Wasteland Goblin2,,
-enWastelandGoblin3,entityclasses,Entity,,,Wasteland Goblin3,,
+enWastelandGoblin1,entityclasses,Entity,,,Wasteland Pygmy,,
+enWastelandGoblin2,entityclasses,Entity,,,Wasteland Pygmy,,
+enWastelandGoblin3,entityclasses,Entity,,,Wasteland Pygmy,,
 enWastelandMale1,entityclasses,Entity,,,Wailing Weyland,,
 enWastelandMale1Crawler,entityclasses,Entity,,,Wailing Weyland Crawler,,
 enWastelandMale1Feral,entityclasses,Entity,,,Wailing Weyland Feral,,

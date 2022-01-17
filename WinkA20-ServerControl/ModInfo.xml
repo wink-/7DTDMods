@@ -10,3 +10,6 @@
 <!-- entityclasses.xml - Adds a bike to the starter items  -->
 <!-- loot.xml - Find bycle parts in Dumpsters -->
 <!-- progression.xml - Slower progression. Raises XP Needed to Level from 11545 to 12545 -->
+<!-- XUi/window.xml - Removed time from window -->
+<!-- spawning.xml - Moved spawning from enZombies to this package. Imported dangerous cities into it. -->
+<!-- entitygroups.xml - Moved from enZombies to this package -->
