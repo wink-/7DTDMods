@@ -648,6 +648,48 @@ blocks.xml
             <property name="CustomIcon" value="cntWoodDesk01Open"/>
         </block>
 
+        <block name="cntRollingToolBoxPlayer">
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="cntRollingToolBoxClosed"/>
+            <property name="ItemTypeIcon" value="lock"/>
+	        <property name="Class" value="SecureLoot"/>
+            <property name="LootList" value="playerLockers"/>     
+            <property name="Material" value="Mmetal"/>
+            <property name="StabilitySupport" value="true"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#Entities/LootContainers?rollingToolChestClosedPrefab.prefab"/>
+            <property name="Path" value="solid"/>
+            <property name="Place" value="TowardsPlacerInverted"/>
+            <property name="DisplayInfo" value="Name"/>
+            <property class="RepairItems">
+                <property name="resourceForgedIron" value="5"/>
+            </property>
+            <property name="DowngradeBlock" value="cntRollingToolBoxPlayerInsecure"/>
+            <property name="EconomicValue" value="200"/>
+            <property name="FilterTags" value="MC_helpers,SC_loot"/>
+            <property name="Group" value="Decor/Miscellaneous"/>
+        </block>
+
+        <block name="cntRollingToolBoxPlayerInsecure">
+            <property name="CreativeMode" value="Dev"/>
+            <property name="CustomIcon" value="cntRollingToolBoxOpen"/>
+	        <property name="Class" value="Loot"/>
+            <property name="LootList" value="playerLockers"/>     
+            <property name="Material" value="Mmetal"/>
+            <property name="StabilitySupport" value="true"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#Entities/LootContainers?rollingToolChestEmptyPrefab.prefab"/>
+            <property name="Path" value="solid"/>
+            <property name="Place" value="TowardsPlacerInverted"/>
+           <property name="DisplayInfo" value="Name"/>
+            <property class="RepairItems">
+                <property name="resourceForgedIron" value="5"/>
+            </property>
+            <property name="EconomicValue" value="200"/>
+            <property name="FilterTags" value="MC_helpers,SC_loot"/>
+            <property name="Group" value="Decor/Miscellaneous"/>
+        </block>
+
         <!-- <block name="cntSecureStorageChestHero">
             <property name="CreativeMode" value="Player"/>
             <property name="Tags" value="door"/>

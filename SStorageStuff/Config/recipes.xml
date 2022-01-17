@@ -104,6 +104,10 @@ recipes.xml
             <ingredient name="resourceMechanicalParts" count="8"/>
         </recipe>
 
+        <recipe name="cntRollingToolBoxPlayer" count="1" craft_time="40" craft_area="workbench" tags="workbenchCrafting">
+            <ingredient name="resourceForgedIron" count="15"/>
+            <ingredient name="resourceMechanicalParts" count="5"/>
+        </recipe>
         <!-- <recipe name="cntSecureStorageChestHero" craft_time="60" craft_area="workbench" tags="workbenchCrafting">
             <ingredient name="resourceForgedSteel" count="20"/>
             <ingredient name="resourceMechanicalParts" count="16"/>

@@ -54,3 +54,5 @@ cntGunRackLargeGuns01Player,blocks,Furniture,,Large Gun Rack (Storage)
 cntGunRackLargeGuns01PlayerInsecure,blocks,Furniture,,Large Gun Rack (Storage) Insecure
 cntGunRackLargeGuns02Player,blocks,Furniture,,Large Gun Rack (Storage)
 cntGunRackLargeGuns02PlayerInsecure,blocks,Furniture,,Large Gun Rack (Storage) Insecure
+cntRollingToolBoxPlayer,blocks,Furniture,,Rolling Toolbox (Storage)
+cntRollingToolBoxPlayerInsecure,blocks,Furniture,,Rolling Toolbox (Storage) Insecure
