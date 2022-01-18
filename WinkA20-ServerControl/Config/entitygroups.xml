@@ -1176,10 +1176,10 @@ Similar to ZombiesForestDowntown, but includes even higher chances of feral vers
 		<entity name="animalIceburgBabyBoar" prob="1"/>
 		<entity name="animalIceburgTeenBoar" prob="1"/>		
 		<entity name="animalStag" prob="1"/>
-		<entity name="animalIceburgBabyStag" prob="1"/>
+		<entity name="animalIceburgBabyDeer" prob="1"/>
 		<entity name="animalIceburgTeenStag" prob="1"/>		
 		<entity name="animalDoe" prob="1"/>
-		<entity name="animalIceburgBabyDoe" prob="1"/>
+		<entity name="animalIceburgBabyDeer" prob="1"/>
 		<entity name="animalIceburgTeenDoe" prob="1"/>		
 		<entity name="animalWolf" prob="1"/>
 		<entity name="animalIceburgBabyWolf" prob="1"/>
@@ -1528,10 +1528,10 @@ by the game.
 		<entity name="animalIceburgBabyBoar" prob="0.7"/>
 		<entity name="animalIceburgTeenBoar" prob="0.7"/>		
 		<entity name="animalDoe" 		prob="0.4"/>
-		<entity name="animalIceburgBabyDoe" prob="0.4"/>
+		<entity name="animalIceburgBabyDeer" prob="0.4"/>
 		<entity name="animalIceburgTeenDoe" prob="0.4"/>		
 		<entity name="animalStag" 		prob="0.4"/>
-		<entity name="animalIceburgBabyStag" prob="0.4"/>
+		<entity name="animalIceburgBabyDeer" prob="0.4"/>
 		<entity name="animalIceburgTeenStag" prob="0.4"/>		
 		<entity name="none" 			prob="75"/>
 	</entitygroup>
@@ -1695,10 +1695,10 @@ by the game.
 		<entity name="animalIceburgBabyBoar" prob="0.7"/>
 		<entity name="animalIceburgTeenBoar" prob="0.7"/>		
 		<entity name="animalDoe" 			prob="0.4"/>
-		<entity name="animalIceburgBabyDoe" prob="0.4"/>
+		<entity name="animalIceburgBabyDeer" prob="0.4"/>
 		<entity name="animalIceburgTeenDoe" prob="0.4"/>
 		<entity name="animalStag" 			prob="0.4"/>
-		<entity name="animalIceburgBabyStag"	prob="0.4"/>
+		<entity name="animalIceburgBabyDeer"	prob="0.4"/>
 		<entity name="animalIceburgTeenStag"	prob="0.4"/>		
 		<entity name="none" 				prob="35"/>
 	</entitygroup>
@@ -2157,10 +2157,10 @@ by the game.
 		<entity name="animalIceburgBabyBoar" 	prob="0.75"/>
 		<entity name="animalIceburgTeenBoar" 	prob="0.75"/>		
 		<entity name="animalDoe" 				prob="0.4"/>
-		<entity name="animalIceburgBabyDoe" 	prob="0.4"/>
+		<entity name="animalIceburgBabyDeer" 	prob="0.4"/>
 		<entity name="animalIceburgTeenDoe" 	prob="0.4"/>		
 		<entity name="animalStag" 				prob="0.4"/>
-		<entity name="animalIceburgBabyStag" 	prob="0.4"/>
+		<entity name="animalIceburgBabyDeer" 	prob="0.4"/>
 		<entity name="animalIceburgTeenStag" 	prob="0.4"/>
 		<entity name="none" 					prob="25.0"/>
 	</entitygroup>	
@@ -2305,10 +2305,10 @@ by the game.
 		<entity name="animalIceburgBabyBoar" 	prob="1.0"/>
 		<entity name="animalIceburgTeenBoar" 	prob="1.0"/>		
 		<entity name="animalDoe" 				prob="0.75"/>
-		<entity name="animalIceburgBabyDoe" 	prob="0.75"/>
+		<entity name="animalIceburgBabyDeer" 	prob="0.75"/>
 		<entity name="animalIceburgTeenDoe" 	prob="0.75"/>		
 		<entity name="animalStag" 				prob="0.75"/>
-		<entity name="animalIceburgBabyStag"	prob="0.75"/>
+		<entity name="animalIceburgBabyDeer"	prob="0.75"/>
 		<entity name="animalIceburgTeenStag"	prob="0.75"/>		
 		<entity name="none" 					prob="35.0"/>
 	</entitygroup>
@@ -2444,10 +2444,10 @@ by the game.
 		<entity name="animalIceburgBabyBoar" 		prob="0.75"/>
 		<entity name="animalIceburgTeenBoar" 		prob="0.75"/>		
 		<entity name="animalStag" 		prob="0.50"/>
-		<entity name="animalIceburgBabyStag"	prob="0.50"/>
+		<entity name="animalIceburgBabyDeer"	prob="0.50"/>
 		<entity name="animalIceburgTeenStag"	prob="0.50"/>		
 		<entity name="animalDoe" 		prob="0.50"/>
-		<entity name="animalIceburgBabyDoe"	prob="0.50"/>
+		<entity name="animalIceburgBabyDeer"	prob="0.50"/>
 		<entity name="animalIceburgTeenDoe"	prob="0.50"/>		
 		<entity name="none" 			prob="50"/>
 	</entitygroup>
@@ -2557,10 +2557,10 @@ by the game.
 		<entity name="animalIceburgBabyRabbit"	prob="1.0"/>
 		<entity name="animalIceburgTeenRabbit"	prob="1.0"/>		
 		<entity name="animalStag" 		prob="0.50"/>
-		<entity name="animalIceburgBabyStag"	prob="0.50"/>
+		<entity name="animalIceburgBabyDeer"	prob="0.50"/>
 		<entity name="animalIceburgTeenStag"	prob="0.50"/>		
 		<entity name="animalDoe" 		prob="0.50"/>
-		<entity name="animalIceburgBabyDoe"	prob="0.50"/>
+		<entity name="animalIceburgBabyDeer"	prob="0.50"/>
 		<entity name="animalIceburgTeenDoe"	prob="0.50"/>		
 		<entity name="animalChicken" 			prob="0.75"/>
 		<entity name="animalIceburgBabyChicken"	prob="0.75"/>
