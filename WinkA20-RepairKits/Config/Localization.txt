@@ -58,7 +58,7 @@ gunBowT3CompoundCrossbowDesc,items,Gun,New,"A compound crossbow is slow to reloa
 gunExplosivesT3RocketLauncherDesc,items,Gun,New,"A Rocket Launcher shoots rocket propelled grenades.\n\nRepair with Rocket Launcher parts.\nScrap to Rocket Launcher parts."
 
 meleeToolAxeT2SteelAxeDesc,items,Tool,New,"The steel axe has a durable blade and is great for harvesting wood.\n\nRepair with a Steel Repair Kit.\nScrap to Steel Tool parts."
-meleeToolPickT2SteelPickaxe,items,Tool,New,"The steel pickaxe is best for breaking stone and harvesting minerals.\n\nRepair with a Steel Repair Kit.\nScrap to Steel Tool parts."
+meleeToolPickT2SteelPickaxeDesc,items,Tool,New,"The steel pickaxe is best for breaking stone and harvesting minerals.\n\nRepair with a Steel Repair Kit.\nScrap to Steel Tool parts."
 meleeToolRepairT3NailgunDesc,items,Tool,New,"The nail gun is the best tool for repairing and upgrading base walls and not a bad weapon to boot if you have nails.\n\nRepair with a Steel Repair Kit.\nScrap to Mechanical parts."
 meleeToolShovelT2SteelShovelDesc,items,Tool,New,"The steel shovel is very durable and the ideal tool for digging through earth, sand or snow.\n\nRepair with a Steel Repair Kit.\nScrap to Steel Tool parts."
 meleeToolSalvageT2RatchetDesc,items,Tool,New,"Great for disassembling mechanical devices like cars, air conditioners and more.\n\nRepair with a Steel Repair Kit.\nScrap to Steel Tool Parts."
