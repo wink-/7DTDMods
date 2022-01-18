@@ -1,8 +1,8 @@
 Key,Source,Context,Changes,English
 resourceRepairKit,items,Item,New,Iron Repair Kit
 resourceRepairKitDesc,items,Item,New,"Iron Repair Kits are used to repair various items."
-resourceSteelRepairKit,items,Item,New,Steel Repair Kit
-resourceSteelRepairKitDesc,items,Item,New,"Steel Repair Kits are used to repair all Steel Tools."
+resourceSteelToolRepairKit,items,Item,New,Steel Tool Repair Kit
+resourceSteelToolRepairKitDesc,items,Item,New,"Steel Tool Repair Kits are used to repair all Steel Tools."
 resourceMotorRepairKit,items,Item,New,Motor Repair Kit
 resourceMotorRepairKitDesc,items,Item,New,"Motor Repair Kits are used to repair all tools that have a motor on them and the Generic Motor"
 resourcePistolRepairKit,items,Item,New,Pistol Repair Kit
