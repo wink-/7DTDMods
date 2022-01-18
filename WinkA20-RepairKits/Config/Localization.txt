@@ -1,6 +1,4 @@
 Key,Source,Context,Changes,English
-resourceRepairKit,items,Item,New,Iron Repair Kit
-resourceRepairKitDesc,items,Item,New,"Iron Repair Kits are used to repair various items."
 resourceSteelToolRepairKit,items,Item,New,Steel Tool Repair Kit
 resourceSteelToolRepairKitDesc,items,Item,New,"Steel Tool Repair Kits are used to repair all Steel Tools."
 resourceMotorRepairKit,items,Item,New,Motor Repair Kit

@@ -2,7 +2,7 @@
 
 	<append xpath="/items">
 
-		<!-- Steel Repair Kit for tools that are made with forged steel -->
+		<!-- Steel Tool Repair Kit for tools that are made with forged steel -->
 		<item name="resourceSteelToolRepairKit">
 			<property name="HoldType" value="45"/>
 			<property name="Tags" value="junk"/>
