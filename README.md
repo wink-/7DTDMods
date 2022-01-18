@@ -21,3 +21,4 @@ https://community.7daystodie.com/forum/27-mods/
 * Kic's Ranger Mod https://github.com/kic99/RangerMod
 * Iceburg's Repair kits and animals https://github.com/Iceburg71?tab=repositories
 * Warlock's mod for better RWG https://github.com/Warlockdaddy/ImprovedRWG
+* Scomar https://github.com/Scomar82
