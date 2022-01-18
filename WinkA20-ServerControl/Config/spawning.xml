@@ -14,8 +14,8 @@
 		<spawn maxcount="4" respawndelay="2.00"	time="Night" 	entitygroup="PineforestZombiesNight" 			notags="commercial,industrial,downtown" />
 		<spawn maxcount="8" respawndelay="0.30"	time="Night" 	entitygroup="PineforestZombiesNightCity" 		tags="commercial,industrial" notags="downtown" />
 		<spawn maxcount="8" respawndelay="0.15"	time="Night" 	entitygroup="PineforestZombiesNightDowntown" 	tags="downtown" />
-		<spawn maxcount="1" respawndelay="1.00"	time="Night" 	entitygroup="PineforestAnimalsAggroNight" 		spawnDeadChance="0" />
-		<spawn maxcount="1" respawndelay="1.00"	time="Night" 	entitygroup="PineforestAnimalsGameNight" 		spawnDeadChance="0" />
+		<spawn maxcount="2" respawndelay="1.00"	time="Night" 	entitygroup="PineforestAnimalsAggroNight" 		spawnDeadChance="0" />
+		<spawn maxcount="2" respawndelay="1.00"	time="Night" 	entitygroup="PineforestAnimalsGameNight" 		spawnDeadChance="0" />
 	</biome>
 	</append>
 	

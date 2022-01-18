@@ -1,26 +1,26 @@
 Key,Source,Context,Changes,English
 resourceRepairKit,items,Item,New,Iron Repair Kit
 resourceRepairKitDesc,items,Item,New,"Iron Repair Kits are used to repair various items."
-resourceIceburgSteelRepairKit,items,Item,New,Steel Repair Kit
-resourceIceburgSteelRepairKitDesc,items,Item,New,"Steel Repair Kits are used to repair all Steel Tools."
-resourceIceburgMotorRepairKit,items,Item,New,Motor Repair Kit
-resourceIceburgMotorRepairKitDesc,items,Item,New,"Motor Repair Kits are used to repair all tools that have a motor on them and the Generic Motor"
-resourceIceburgPistolRepairKit,items,Item,New,Pistol Repair Kit
-resourceIceburgPistolRepairKitDesc,items,Item,New,"Pistol Repair Kits are used to repair the Pistol, Magnum 44, SMG, and Desert Vulture."
-resourceIceburgShotgunRepairKit,items,Item,New,Shotgun Repair Kit
-resourceIceburgShotgunRepairKitDesc,items,Item,New,"Shotgun Repair Kits are used to repair the Double Barrel, Pump, and Auto shotguns."
-resourceIceburgRifleRepairKit,items,Item,New,Rifle Repair Kit
-resourceIceburgRifleRepairKitDesc,items,Item,New,"Rifle Repair Kits are used to repair the Hunting, Marksman, and Sniper rifles."
-resourceIceburgMachineGunRepairKit,items,Item,New,Machine Gun Repair Kit
-resourceIceburgMachineGunRepairKitDesc,items,Item,New,"Machine Gun Repair Kits are used to repair the AK-47, Tactical AR, and M60."
-resourceIceburgBowRepairKit,items,Item,New,Bow Repair Kit
-resourceIceburgBowRepairKitDesc,items,Item,New,"Machine Gun Repair Kits are used to repair the Wooden Bow, Compound Bow, Iron Crossbow, and Compound Crossbow."
-resourceIceburgNonmetalArmorRepairKit,items,Item,New,Nonmetal Armor Repair Kit
-resourceIceburgNonmetalArmorRepairKitDesc,items,Item,New,"Non-metal Armor Repair Kits are used to repair all Cloth and Leather armor."
-resourceIceburgMetalArmorRepairKit,items,Item,New,Metal Armor Repair Kit
-resourceIceburgMetalArmorRepairKitDesc,items,Item,New,"Metal Armor Repair Kits are used to repair both Iron and Steel armor."
-resourceIceburgMilitaryArmorRepairKit,items,Item,New,Military Armor Repair Kit
-resourceIceburgMilitaryArmorRepairKitDesc,items,Item,New,"Military Armor Repair Kits are used to repair all types of Military Armor."
+resourceSteelRepairKit,items,Item,New,Steel Repair Kit
+resourceSteelRepairKitDesc,items,Item,New,"Steel Repair Kits are used to repair all Steel Tools."
+resourceMotorRepairKit,items,Item,New,Motor Repair Kit
+resourceMotorRepairKitDesc,items,Item,New,"Motor Repair Kits are used to repair all tools that have a motor on them and the Generic Motor"
+resourcePistolRepairKit,items,Item,New,Pistol Repair Kit
+resourcePistolRepairKitDesc,items,Item,New,"Pistol Repair Kits are used to repair the Pistol, Magnum 44, SMG, and Desert Vulture."
+resourceShotgunRepairKit,items,Item,New,Shotgun Repair Kit
+resourceShotgunRepairKitDesc,items,Item,New,"Shotgun Repair Kits are used to repair the Double Barrel, Pump, and Auto shotguns."
+resourceRifleRepairKit,items,Item,New,Rifle Repair Kit
+resourceRifleRepairKitDesc,items,Item,New,"Rifle Repair Kits are used to repair the Hunting, Marksman, and Sniper rifles."
+resourceMachineGunRepairKit,items,Item,New,Machine Gun Repair Kit
+resourceMachineGunRepairKitDesc,items,Item,New,"Machine Gun Repair Kits are used to repair the AK-47, Tactical AR, and M60."
+resourceBowRepairKit,items,Item,New,Bow Repair Kit
+resourceBowRepairKitDesc,items,Item,New,"Machine Gun Repair Kits are used to repair the Wooden Bow, Compound Bow, Iron Crossbow, and Compound Crossbow."
+resourceNonmetalArmorRepairKit,items,Item,New,Nonmetal Armor Repair Kit
+resourceNonmetalArmorRepairKitDesc,items,Item,New,"Non-metal Armor Repair Kits are used to repair all Cloth and Leather armor."
+resourceMetalArmorRepairKit,items,Item,New,Metal Armor Repair Kit
+resourceMetalArmorRepairKitDesc,items,Item,New,"Metal Armor Repair Kits are used to repair both Iron and Steel armor."
+resourceMilitaryArmorRepairKit,items,Item,New,Military Armor Repair Kit
+resourceMilitaryArmorRepairKitDesc,items,Item,New,"Military Armor Repair Kits are used to repair all types of Military Armor."
 
 armorClothGroupDesc,items,Clothes,New,"Light armor will encumber you a little and provides some protection against damage.\nIt will not protect you from the weather.\n\nRepair with a Nonmetal Armor Repair Kit.\nScrap to cloth."
 armorHeavyGroupDesc,items,Clothes,New,"Heavy armor will encumber you but provides good protection against damage.\nIt will not protect you from the weather.\n\nRepair with a Metal Armor Repair Kit.\nScrap to Iron."
