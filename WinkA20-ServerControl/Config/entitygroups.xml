@@ -1134,8 +1134,8 @@ Similar to ZombiesForestDowntown, but includes even higher chances of feral vers
 		<entity name="animalIceburgBabyCoyote" prob="30"/>
 		<entity name="animalIceburgTeenCoyote" prob="30"/>			
 		<entity name="animalZombieVulture" prob="20"/>
-		<entity name="animalIceburgBabyVulture" prob="20"/>
-		<entity name="animalIceburgTeenVulture" prob="20"/>			
+		<entity name="animalIceburgBabyZombieVulture" prob="20"/>
+		<entity name="animalIceburgTeenZombieVulture" prob="20"/>			
 		<entity name="animalSnake" prob="10"/>
 		<entity name="animalIceburgBabySnake" prob="10"/>
 		<entity name="animalIceburgTeenSnake" prob="10"/>			
