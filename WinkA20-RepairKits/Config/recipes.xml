@@ -16,7 +16,7 @@
 		</recipe>
 
 		<recipe name="resourceMotorRepairKit" count="1" craft_area="workbench" craft_time="10">
-			<ingredient name="resourceForgedSteel" count="1"/>
+			<ingredient name="resourceForgedSteel" count="3"/>
 			<ingredient name="meleeToolAxeT3ChainsawParts" count="2"/>
 			<ingredient name="resourceDuctTape" count="2"/>
 			<ingredient name="resourceMechanicalParts" count="5"/>
