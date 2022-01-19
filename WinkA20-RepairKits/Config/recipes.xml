@@ -1,8 +1,8 @@
 <configs>
 
 	<append xpath="/recipes/recipe[@name='resourceRepairKit']">
-		<ingredient name="resourceLeather" count="2" />
-		<ingredient name="resourceCloth" count="2" />
+		<ingredient name="resourceLeather" count="1" />
+		<ingredient name="resourceCloth" count="1" />
 	</append>
     
 	<append xpath="/recipes">
@@ -51,14 +51,14 @@
 			<ingredient name="resourceOil" count="1"/>
 		</recipe>
 
-		<recipe name="resourceNonmetalArmorRepairKit" count="1" craft_area="workbench"> craft_time="10"
+		<recipe name="resourceNonmetalArmorRepairKit" count="1" craft_area="workbench" craft_time="10">
 			<ingredient name="resourceLeather" count="1"/>
 			<ingredient name="resourceCloth" count="1"/>
 			<ingredient name="resourceSewingKit" count="1"/>
 		</recipe>
 
 		<recipe name="resourceMilitaryArmorRepairKit" count="1" craft_area="workbench" craft_time="10">
-			<ingredient name="armorMilitarySetParts" count="2"/>
+			<ingredient name="armorMilitarySetParts" count="1"/>
 			<ingredient name="resourceMilitaryFiber" count="1"/>
 			<ingredient name="resourceScrapPolymers" count="1"/>
 			<ingredient name="resourceSewingKit" count="1"/>
