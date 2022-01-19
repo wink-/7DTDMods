@@ -1092,11 +1092,11 @@ Similar to ZombiesForestDowntown, but includes even higher chances of feral vers
 <append xpath="/entitygroups">
 	<entitygroup name="AnimalsSmall">
 		<entity name="animalRabbit"/>
-		<entity name="animalIceburgBabyRabbit"/>
-		<entity name="animalIceburgTeenRabbit"/>		
+		<entity name="animalBabyRabbit"/>
+		<entity name="animalTeenRabbit"/>		
 		<entity name="animalChicken"/>
-		<entity name="animalIceburgBabyChicken"/>
-		<entity name="animalIceburgTeenChicken"/>			
+		<entity name="animalBabyChicken"/>
+		<entity name="animalTeenChicken"/>			
 	</entitygroup>
 </append>
 
@@ -1106,11 +1106,11 @@ Similar to ZombiesForestDowntown, but includes even higher chances of feral vers
 <append xpath="/entitygroups">
 	<entitygroup name="AnimalsFarm">
 		<entity name="animalBoar"/>
-		<entity name="animalIceburgBabyBoar"/>
-		<entity name="animalIceburgTeenBoar"/>			
+		<entity name="animalBabyBoar"/>
+		<entity name="animalTeenBoar"/>			
 		<entity name="animalChicken"/>
-		<entity name="animalIceburgBabyChicken"/>
-		<entity name="animalIceburgTeenChicken"/>		
+		<entity name="animalBabyChicken"/>
+		<entity name="animalTeenChicken"/>		
 	</entitygroup>
 </append>
 
@@ -1120,8 +1120,8 @@ Similar to ZombiesForestDowntown, but includes even higher chances of feral vers
 <append xpath="/entitygroups">
 	<entitygroup name="EnemyAnimalsCoyote">
 		<entity name="animalCoyote"/>
-		<entity name="animalIceburgBabyCoyote"/>
-		<entity name="animalIceburgTeenCoyote"/>
+		<entity name="animalBabyCoyote"/>
+		<entity name="animalTeenCoyote"/>
 	</entitygroup>
 </append>
 
@@ -1131,14 +1131,14 @@ Similar to ZombiesForestDowntown, but includes even higher chances of feral vers
 <append xpath="/entitygroups">
 	<entitygroup name="EnemyAnimalsDesert">
 		<entity name="animalCoyote" prob="30"/>
-		<entity name="animalIceburgBabyCoyote" prob="30"/>
-		<entity name="animalIceburgTeenCoyote" prob="30"/>			
+		<entity name="animalBabyCoyote" prob="30"/>
+		<entity name="animalTeenCoyote" prob="30"/>			
 		<entity name="animalZombieVulture" prob="20"/>
-		<entity name="animalIceburgBabyZombieVulture" prob="20"/>
-		<entity name="animalIceburgTeenZombieVulture" prob="20"/>			
+		<entity name="animalBabyZombieVulture" prob="20"/>
+		<entity name="animalTeenZombieVulture" prob="20"/>			
 		<entity name="animalSnake" prob="10"/>
-		<entity name="animalIceburgBabySnake" prob="10"/>
-		<entity name="animalIceburgTeenSnake" prob="10"/>			
+		<entity name="animalBabySnake" prob="10"/>
+		<entity name="animalTeenSnake" prob="10"/>			
 		<entity name="none" prob="40"/><!-- must not be first since first name determines if enemy group -->
 	</entitygroup>
 </append>
@@ -1149,14 +1149,14 @@ Similar to ZombiesForestDowntown, but includes even higher chances of feral vers
 <append xpath="/entitygroups">
 	<entitygroup name="EnemyAnimalsSnow">
 		<entity name="animalMountainLion" prob="25"/>
-		<entity name="animalIceburgBabyMountainLion" prob="25"/>
-		<entity name="animalIceburgTeenMountainLion" prob="25"/>	
+		<entity name="animalBabyMountainLion" prob="25"/>
+		<entity name="animalTeenMountainLion" prob="25"/>	
 		<entity name="animalDireWolf" prob="10"/>
-		<entity name="animalIceburgBabyDireWolf" prob="10"/>
-		<entity name="animalIceburgTeenDireWolf" prob="10"/>			
+		<entity name="animalBabyDireWolf" prob="10"/>
+		<entity name="animalTeenDireWolf" prob="10"/>			
 		<entity name="animalBear" prob="10"/>
-		<entity name="animalIceburgBabyBear" prob="10"/>
-		<entity name="animalIceburgTeenBear" prob="10"/>			
+		<entity name="animalBabyBear" prob="10"/>
+		<entity name="animalTeenBear" prob="10"/>			
 		<entity name="none" prob="110"/>
 	</entitygroup>
 </append>
@@ -1167,23 +1167,23 @@ Similar to ZombiesForestDowntown, but includes even higher chances of feral vers
 <append xpath="/entitygroups">
 	<entitygroup name="WildGameForest">
 		<entity name="animalRabbit" prob="48"/>
-		<entity name="animalIceburgBabyRabbit" prob="48"/>
-		<entity name="animalIceburgTeenRabbit" prob="48"/>		
+		<entity name="animalBabyRabbit" prob="48"/>
+		<entity name="animalTeenRabbit" prob="48"/>		
 		<entity name="animalChicken" prob="48"/>
-		<entity name="animalIceburgBabyChicken" prob="48"/>
-		<entity name="animalIceburgTeenChicken" prob="48"/>		
+		<entity name="animalBabyChicken" prob="48"/>
+		<entity name="animalTeenChicken" prob="48"/>		
 		<entity name="animalBoar" prob="1"/>
-		<entity name="animalIceburgBabyBoar" prob="1"/>
-		<entity name="animalIceburgTeenBoar" prob="1"/>		
+		<entity name="animalBabyBoar" prob="1"/>
+		<entity name="animalTeenBoar" prob="1"/>		
 		<entity name="animalStag" prob="1"/>
-		<entity name="animalIceburgBabyDeer" prob="1"/>
-		<entity name="animalIceburgTeenStag" prob="1"/>		
+		<entity name="animalBabyDeer" prob="1"/>
+		<entity name="animalTeenStag" prob="1"/>		
 		<entity name="animalDoe" prob="1"/>
-		<entity name="animalIceburgBabyDeer" prob="1"/>
-		<entity name="animalIceburgTeenDoe" prob="1"/>		
+		<entity name="animalBabyDeer" prob="1"/>
+		<entity name="animalTeenDoe" prob="1"/>		
 		<entity name="animalWolf" prob="1"/>
-		<entity name="animalIceburgBabyWolf" prob="1"/>
-		<entity name="animalIceburgTeenWolf" prob="1"/>		
+		<entity name="animalBabyWolf" prob="1"/>
+		<entity name="animalTeenWolf" prob="1"/>		
 		<entity name="none" prob="100"/>
 	</entitygroup>
 </append>
@@ -1194,14 +1194,14 @@ Similar to ZombiesForestDowntown, but includes even higher chances of feral vers
 <append xpath="/entitygroups">
 	<entitygroup name="EnemyAnimalsForest">
 		<entity name="animalWolf" prob="3"/>
-		<entity name="animalIceburgBabyWolf" prob="3"/>
-		<entity name="animalIceburgTeenWolf" prob="3"/>		
+		<entity name="animalBabyWolf" prob="3"/>
+		<entity name="animalTeenWolf" prob="3"/>		
 		<entity name="animalBear" prob="1"/>
-		<entity name="animalIceburgBabyBear" prob="1"/>
-		<entity name="animalIceburgTeenBear" prob="1"/>		
+		<entity name="animalBabyBear" prob="1"/>
+		<entity name="animalTeenBear" prob="1"/>		
 		<entity name="animalDireWolf" prob="1"/>
-		<entity name="animalIceburgBabyDireWolf" prob="1"/>
-		<entity name="animalIceburgTeenDireWolf" prob="1"/>		
+		<entity name="animalBabyDireWolf" prob="1"/>
+		<entity name="animalTeenDireWolf" prob="1"/>		
 		<entity name="none" prob="85"/>
 	</entitygroup>
 </append>
@@ -1212,14 +1212,14 @@ Similar to ZombiesForestDowntown, but includes even higher chances of feral vers
 <append xpath="/entitygroups">
 	<entitygroup name="EnemyAnimalsBurntForest">
 		<entity name="animalZombieDog" prob="3"/>
-		<entity name="animalIceburgBabyZombieDog" prob="3"/>
-		<entity name="animalIceburgTeenZombieDog" prob="3"/>		
+		<entity name="animalBabyZombieDog" prob="3"/>
+		<entity name="animalTeenZombieDog" prob="3"/>		
 		<entity name="animalZombieBear" prob="1"/>
-		<entity name="animalIceburgBabyBear" prob="1"/>
-		<entity name="animalIceburgTeenBear" prob="1"/>		
+		<entity name="animalBabyBear" prob="1"/>
+		<entity name="animalTeenBear" prob="1"/>		
 		<entity name="animalDireWolf" prob="1"/>
-		<entity name="animalIceburgBabyDireWolf" prob="1"/>
-		<entity name="animalIceburgTeenDireWolf" prob="1"/>			
+		<entity name="animalBabyDireWolf" prob="1"/>
+		<entity name="animalTeenDireWolf" prob="1"/>			
 		<entity name="none" prob="85"/>
 	</entitygroup>
 </append>
@@ -1230,14 +1230,14 @@ Similar to ZombiesForestDowntown, but includes even higher chances of feral vers
 <append xpath="/entitygroups">
 	<entitygroup name="EnemyAnimalsWasteland">
 		<entity name="animalSnake" prob="20"/>
-		<entity name="animalIceburgBabySnake" prob="20"/>
-		<entity name="animalIceburgTeenSnake" prob="20"/>
+		<entity name="animalBabySnake" prob="20"/>
+		<entity name="animalTeenSnake" prob="20"/>
 		<entity name="animalZombieVulture" prob="10"/>
-		<entity name="animalIceburgBabyZombieVulture" prob="10"/>
-		<entity name="animalIceburgTeenZombieVulture" prob="10"/>		
+		<entity name="animalBabyZombieVulture" prob="10"/>
+		<entity name="animalTeenZombieVulture" prob="10"/>		
 		<entity name="animalZombieDog" prob="10"/>
-		<entity name="animalIceburgBabyZombieDog" prob="10"/>
-		<entity name="animalIceburgTeenZombieDog" prob="10"/>		
+		<entity name="animalBabyZombieDog" prob="10"/>
+		<entity name="animalTeenZombieDog" prob="10"/>		
 		<entity name="animalZombieBear" prob="20"/>
 	</entitygroup>
 </append>
@@ -1248,8 +1248,8 @@ Similar to ZombiesForestDowntown, but includes even higher chances of feral vers
 <append xpath="/entitygroups">
 	<entitygroup name="ZombieDogGroup">
 		<entity name="animalZombieDog"/>
-		<entity name="animalIceburgBabyZombieDog"/>
-		<entity name="animalIceburgTeenZombieDog"/>		
+		<entity name="animalBabyZombieDog"/>
+		<entity name="animalTeenZombieDog"/>		
 	</entitygroup>
 </append>
 
@@ -1259,8 +1259,8 @@ Similar to ZombiesForestDowntown, but includes even higher chances of feral vers
 <append xpath="/entitygroups">
 	<entitygroup name="WolfGroup">
 		<entity name="animalWolf"/>
-		<entity name="animalIceburgBabyWolf"/>
-		<entity name="animalIceburgTeenWolf"/>		
+		<entity name="animalBabyWolf"/>
+		<entity name="animalTeenWolf"/>		
 	</entitygroup>
 </append>
 
@@ -1270,11 +1270,11 @@ Similar to ZombiesForestDowntown, but includes even higher chances of feral vers
 <append xpath="/entitygroups">
 	<entitygroup name="WolfPack">
 		<entity name="animalWolf"/>
-		<entity name="animalIceburgBabyWolf"/>
-		<entity name="animalIceburgTeenWolf"/>
+		<entity name="animalBabyWolf"/>
+		<entity name="animalTeenWolf"/>
 		<entity name="animalDireWolf" prob="0.5"/>
-		<entity name="animalIceburgBabyDireWolf" prob="0.5"/>
-		<entity name="animalIceburgTeenDireWolf" prob="0.5"/>
+		<entity name="animalBabyDireWolf" prob="0.5"/>
+		<entity name="animalTeenDireWolf" prob="0.5"/>
 	</entitygroup>
 </append>
 
@@ -1284,8 +1284,8 @@ Similar to ZombiesForestDowntown, but includes even higher chances of feral vers
 <append xpath="/entitygroups">
 	<entitygroup name="VultureGroup">
 		<entity name="animalZombieVulture"/>
-		<entity name="animalIceburgBabyZombieVulture"/>
-		<entity name="animalIceburgTeenZombieVulture"/>		
+		<entity name="animalBabyZombieVulture"/>
+		<entity name="animalTeenZombieVulture"/>		
 	</entitygroup>
 </append>
 
@@ -1295,8 +1295,8 @@ Similar to ZombiesForestDowntown, but includes even higher chances of feral vers
 <append xpath="/entitygroups">
 	<entitygroup name="SnakeGroup">
 		<entity name="animalSnake"/>
-		<entity name="animalIceburgBabySnake"/>
-		<entity name="animalIceburgTeenSnake"/>
+		<entity name="animalBabySnake"/>
+		<entity name="animalTeenSnake"/>
 	</entitygroup>
 </append>
 
@@ -1306,8 +1306,8 @@ Similar to ZombiesForestDowntown, but includes even higher chances of feral vers
 <append xpath="/entitygroups">
 	<entitygroup name="BoarGroup">
 		<entity name="animalBoar"/>
-		<entity name="animalIceburgBabyBoar"/>
-		<entity name="animalIceburgTeenBoar"/>	
+		<entity name="animalBabyBoar"/>
+		<entity name="animalTeenBoar"/>	
 	</entitygroup>
 </append>
 
@@ -1326,8 +1326,8 @@ Similar to ZombiesForestDowntown, but includes even higher chances of feral vers
 <append xpath="/entitygroups">
 	<entitygroup name="BearGroup">
 		<entity name="animalBear"/>
-		<entity name="animalIceburgBabyBear"/>
-		<entity name="animalIceburgTeenBear"/>			
+		<entity name="animalBabyBear"/>
+		<entity name="animalTeenBear"/>			
 	</entitygroup>
 </append>
 
@@ -1337,8 +1337,8 @@ Similar to ZombiesForestDowntown, but includes even higher chances of feral vers
 <append xpath="/entitygroups">
 	<entitygroup name="ChickenGroup">
 		<entity name="animalChicken"/>
-		<entity name="animalIceburgBabyChicken"/>
-		<entity name="animalIceburgTeenChicken"/>			
+		<entity name="animalBabyChicken"/>
+		<entity name="animalTeenChicken"/>			
 	</entitygroup>
 </append>
 
@@ -1348,8 +1348,8 @@ Similar to ZombiesForestDowntown, but includes even higher chances of feral vers
 <append xpath="/entitygroups">
 	<entitygroup name="RabbitGroup">
 		<entity name="animalRabbit"/>
-		<entity name="animalIceburgBabyRabbit"/>
-		<entity name="animalIceburgTeenRabbit"/>		
+		<entity name="animalBabyRabbit"/>
+		<entity name="animalTeenRabbit"/>		
 	</entitygroup>
 </append>
 
@@ -1506,33 +1506,33 @@ by the game.
 	
 	<entitygroup name="PineforestAnimalsAggroDay">
 		<entity name="animalWolf" 			prob="1"/>
-		<entity name="animalIceburgBabyWolf" prob="1"/>
-		<entity name="animalIceburgTeenWolf" prob="1"/>		
+		<entity name="animalBabyWolf" prob="1"/>
+		<entity name="animalTeenWolf" prob="1"/>		
 		<entity name="animalBear" 			prob="0.30"/>
-		<entity name="animalIceburgBabyBear" prob="0.30"/>
-		<entity name="animalIceburgTeenBear" prob="0.30"/>			
+		<entity name="animalBabyBear" prob="0.30"/>
+		<entity name="animalTeenBear" prob="0.30"/>			
 		<entity name="animalDireWolf"		prob="0.15"/>
-		<entity name="animalIceburgBabyDireWolf" prob="0,15"/>
-		<entity name="animalIceburgTeenDireWolf" prob="0.15"/>			
+		<entity name="animalBabyDireWolf" prob="0,15"/>
+		<entity name="animalTeenDireWolf" prob="0.15"/>			
 		<entity name="none" 				prob="50"/>
 	</entitygroup>
 	
 	<entitygroup name="PineforestAnimalsGameDay">
 		<entity name="animalRabbit" 	prob="1.0"/>
-		<entity name="animalIceburgBabyRabbit" prob="1"/>
-		<entity name="animalIceburgTeenRabbit" prob="1"/>		
+		<entity name="animalBabyRabbit" prob="1"/>
+		<entity name="animalTeenRabbit" prob="1"/>		
 		<entity name="animalChicken" 	prob="1.0"/>
-		<entity name="animalIceburgBabyChicken" prob="1"/>
-		<entity name="animalIceburgTeenChicken" prob="1"/>		
+		<entity name="animalBabyChicken" prob="1"/>
+		<entity name="animalTeenChicken" prob="1"/>		
 		<entity name="animalBoar" 		prob="0.7"/>
-		<entity name="animalIceburgBabyBoar" prob="0.7"/>
-		<entity name="animalIceburgTeenBoar" prob="0.7"/>		
+		<entity name="animalBabyBoar" prob="0.7"/>
+		<entity name="animalTeenBoar" prob="0.7"/>		
 		<entity name="animalDoe" 		prob="0.4"/>
-		<entity name="animalIceburgBabyDeer" prob="0.4"/>
-		<entity name="animalIceburgTeenDoe" prob="0.4"/>		
+		<entity name="animalBabyDeer" prob="0.4"/>
+		<entity name="animalTeenDoe" prob="0.4"/>		
 		<entity name="animalStag" 		prob="0.4"/>
-		<entity name="animalIceburgBabyDeer" prob="0.4"/>
-		<entity name="animalIceburgTeenStag" prob="0.4"/>		
+		<entity name="animalBabyDeer" prob="0.4"/>
+		<entity name="animalTeenStag" prob="0.4"/>		
 		<entity name="none" 			prob="75"/>
 	</entitygroup>
 	
@@ -1670,36 +1670,36 @@ by the game.
 	
 	<entitygroup name="PineforestAnimalsAggroNight">
 		<entity name="animalWolf" 				prob="1.0"/>
-		<entity name="animalIceburgBabyWolf"	prob="1.0"/>
-		<entity name="animalIceburgTeenWolf" 	prob="1.0"/>				
+		<entity name="animalBabyWolf"	prob="1.0"/>
+		<entity name="animalTeenWolf" 	prob="1.0"/>				
 		<entity name="animalDireWolf"			prob="0.25"/>
-		<entity name="animalIceburgBabyDireWolf"	prob="0.25"/>
-		<entity name="animalIceburgTeenDireWolf" 	prob="0.25"/>		
+		<entity name="animalBabyDireWolf"	prob="0.25"/>
+		<entity name="animalTeenDireWolf" 	prob="0.25"/>		
 		<entity name="animalBear" 				prob="0.20"/>
-		<entity name="animalIceburgBabyBear"	prob="0.20"/>
-		<entity name="animalIceburgTeenBear" 	prob="0.20"/>		
+		<entity name="animalBabyBear"	prob="0.20"/>
+		<entity name="animalTeenBear" 	prob="0.20"/>		
 		<entity name="animalZombieBear"			prob="0.20"/>
-		<entity name="animalIceburgBabyZombieBear"	prob="0.20"/>
-		<entity name="animalIceburgTeenZombieBear" 	prob="0.20"/>		
+		<entity name="animalBabyZombieBear"	prob="0.20"/>
+		<entity name="animalTeenZombieBear" 	prob="0.20"/>		
 		<entity name="none" 				prob="25"/>
 	</entitygroup>
 	
 	<entitygroup name="PineforestAnimalsGameNight">
 		<entity name="animalRabbit" 		prob="1.0"/>
-		<entity name="animalIceburgBabyRabbit" 		prob="1.0"/>
-		<entity name="animalIceburgTeenRabbit" 		prob="1.0"/>
+		<entity name="animalBabyRabbit" 		prob="1.0"/>
+		<entity name="animalTeenRabbit" 		prob="1.0"/>
 		<entity name="animalChicken" 		prob="1.0"/>
-		<entity name="animalIceburgBabyChicken" 		prob="1.0"/>
-		<entity name="animalIceburgTeenChicken" 		prob="1.0"/>		
+		<entity name="animalBabyChicken" 		prob="1.0"/>
+		<entity name="animalTeenChicken" 		prob="1.0"/>		
 		<entity name="animalBoar" 			prob="0.7"/>
-		<entity name="animalIceburgBabyBoar" prob="0.7"/>
-		<entity name="animalIceburgTeenBoar" prob="0.7"/>		
+		<entity name="animalBabyBoar" prob="0.7"/>
+		<entity name="animalTeenBoar" prob="0.7"/>		
 		<entity name="animalDoe" 			prob="0.4"/>
-		<entity name="animalIceburgBabyDeer" prob="0.4"/>
-		<entity name="animalIceburgTeenDoe" prob="0.4"/>
+		<entity name="animalBabyDeer" prob="0.4"/>
+		<entity name="animalTeenDoe" prob="0.4"/>
 		<entity name="animalStag" 			prob="0.4"/>
-		<entity name="animalIceburgBabyDeer"	prob="0.4"/>
-		<entity name="animalIceburgTeenStag"	prob="0.4"/>		
+		<entity name="animalBabyDeer"	prob="0.4"/>
+		<entity name="animalTeenStag"	prob="0.4"/>		
 		<entity name="none" 				prob="35"/>
 	</entitygroup>
 	
@@ -1853,14 +1853,14 @@ by the game.
 	
 	<entitygroup name="DesertAnimalsGameDay">		
 		<entity name="animalSnake" 				prob="1.5"/>
-		<entity name="animalIceburgBabySnake" 		prob="1.5"/>
-		<entity name="animalIceburgTeenSnake" 		prob="1.5"/>
+		<entity name="animalBabySnake" 		prob="1.5"/>
+		<entity name="animalTeenSnake" 		prob="1.5"/>
 		<entity name="animalRabbit" 			prob="1.0"/>
-		<entity name="animalIceburgBabyRabbit" 		prob="1.0"/>
-		<entity name="animalIceburgTeenRabbit" 		prob="1.0"/>
+		<entity name="animalBabyRabbit" 		prob="1.0"/>
+		<entity name="animalTeenRabbit" 		prob="1.0"/>
 		<entity name="animalChicken" 			prob="1.0"/>
-		<entity name="animalIceburgBabyChicken" 		prob="1.0"/>
-		<entity name="animalIceburgTeenChicken" 		prob="1.0"/>
+		<entity name="animalBabyChicken" 		prob="1.0"/>
+		<entity name="animalTeenChicken" 		prob="1.0"/>
 		<entity name="none" 					prob="25.0"/>
 	</entitygroup>
 	
@@ -1997,21 +1997,21 @@ by the game.
 	
 	<entitygroup name="DesertAnimalsAggroNight">
 		<entity name="animalCoyote"				prob="1.0"/>
-		<entity name="animalIceburgBabyCoyote"	prob="1.0"/>
-		<entity name="animalIceburgTeenCoyote"	prob="1.0"/>
+		<entity name="animalBabyCoyote"	prob="1.0"/>
+		<entity name="animalTeenCoyote"	prob="1.0"/>
 		<entity name="none" 					prob="25.0"/>
 	</entitygroup>
 	
 	<entitygroup name="DesertAnimalsGameNight">		
 		<entity name="animalSnake" 				prob="1.0"/>
-		<entity name="animalIceburgBabySnake" 		prob="1.0"/>
-		<entity name="animalIceburgTeenSnake" 		prob="1.0"/>		
+		<entity name="animalBabySnake" 		prob="1.0"/>
+		<entity name="animalTeenSnake" 		prob="1.0"/>		
 		<entity name="animalRabbit" 			prob="1.0"/>
-		<entity name="animalIceburgBabyRabbit" 		prob="1.0"/>
-		<entity name="animalIceburgTeenRabbit" 		prob="1.0"/>		
+		<entity name="animalBabyRabbit" 		prob="1.0"/>
+		<entity name="animalTeenRabbit" 		prob="1.0"/>		
 		<entity name="animalChicken" 			prob="0.25"/>
-		<entity name="animalIceburgBabyChicken" 		prob="0.25"/>
-		<entity name="animalIceburgTeenChicken" 		prob="0.25"/>		
+		<entity name="animalBabyChicken" 		prob="0.25"/>
+		<entity name="animalTeenChicken" 		prob="0.25"/>		
 		<entity name="none" 					prob="35.0"/>
 	</entitygroup>
 	
@@ -2135,33 +2135,33 @@ by the game.
 	
 	<entitygroup name="SnowAnimalsAggroDay">
 		<entity name="animalWolf" 				prob="1.0"/>
-		<entity name="animalIceburgBabyWolf" 		prob="1.0"/>
-		<entity name="animalIceburgTeenWolf" 		prob="1.0"/>		
+		<entity name="animalBabyWolf" 		prob="1.0"/>
+		<entity name="animalTeenWolf" 		prob="1.0"/>		
 		<entity name="animalMountainLion" 		prob="0.5"/>
-		<entity name="animalIceburgBabyMountainLion" 		prob="0.5"/>
-		<entity name="animalIceburgTeenMountainLion" 		prob="0.5"/>		
+		<entity name="animalBabyMountainLion" 		prob="0.5"/>
+		<entity name="animalTeenMountainLion" 		prob="0.5"/>		
 		<entity name="animalBear" 				prob="0.2"/>
-		<entity name="animalIceburgBabyBear" 		prob="0.2"/>
-		<entity name="animalIceburgTeenBear" 		prob="0.2"/>		
+		<entity name="animalBabyBear" 		prob="0.2"/>
+		<entity name="animalTeenBear" 		prob="0.2"/>		
 		<entity name="none" 					prob="35.0"/>
 	</entitygroup>
 
 	<entitygroup name="SnowAnimalsGameDay">		
 		<entity name="animalRabbit" 			prob="1.25"/>
-		<entity name="animalIceburgBabyRabbit" 	prob="1.25"/>
-		<entity name="animalIceburgTeenRabbit" 	prob="1.25"/>
+		<entity name="animalBabyRabbit" 	prob="1.25"/>
+		<entity name="animalTeenRabbit" 	prob="1.25"/>
 		<entity name="animalChicken" 			prob="1.0"/>
-		<entity name="animalIceburgBabyChicken" prob="1.0"/>
-		<entity name="animalIceburgTeenChicken" prob="1.0"/>		
+		<entity name="animalBabyChicken" prob="1.0"/>
+		<entity name="animalTeenChicken" prob="1.0"/>		
 		<entity name="animalBoar" 				prob="0.75"/>
-		<entity name="animalIceburgBabyBoar" 	prob="0.75"/>
-		<entity name="animalIceburgTeenBoar" 	prob="0.75"/>		
+		<entity name="animalBabyBoar" 	prob="0.75"/>
+		<entity name="animalTeenBoar" 	prob="0.75"/>		
 		<entity name="animalDoe" 				prob="0.4"/>
-		<entity name="animalIceburgBabyDeer" 	prob="0.4"/>
-		<entity name="animalIceburgTeenDoe" 	prob="0.4"/>		
+		<entity name="animalBabyDeer" 	prob="0.4"/>
+		<entity name="animalTeenDoe" 	prob="0.4"/>		
 		<entity name="animalStag" 				prob="0.4"/>
-		<entity name="animalIceburgBabyDeer" 	prob="0.4"/>
-		<entity name="animalIceburgTeenStag" 	prob="0.4"/>
+		<entity name="animalBabyDeer" 	prob="0.4"/>
+		<entity name="animalTeenStag" 	prob="0.4"/>
 		<entity name="none" 					prob="25.0"/>
 	</entitygroup>	
 	
@@ -2280,36 +2280,36 @@ by the game.
 	
 	<entitygroup name="SnowAnimalsAggroNight">
 		<entity name="animalWolf" 						prob="1.0"/>
-		<entity name="animalIceburgBabyWolf" 			prob="1.0"/>
-		<entity name="animalIceburgTeenWolf" 			prob="1.0"/>		
+		<entity name="animalBabyWolf" 			prob="1.0"/>
+		<entity name="animalTeenWolf" 			prob="1.0"/>		
 		<entity name="animalMountainLion" 				prob="0.5"/>
-		<entity name="animalIceburgBabyMountainLion" 	prob="0.5"/>
-		<entity name="animalIceburgTeenMountainLion" 	prob="0.5"/>		
+		<entity name="animalBabyMountainLion" 	prob="0.5"/>
+		<entity name="animalTeenMountainLion" 	prob="0.5"/>		
 		<entity name="animalBear" 						prob="0.20"/>
-		<entity name="animalIceburgBabyBear" 			prob="0.20"/>
-		<entity name="animalIceburgTeenBear" 			prob="0.20"/>		
+		<entity name="animalBabyBear" 			prob="0.20"/>
+		<entity name="animalTeenBear" 			prob="0.20"/>		
 		<entity name="animalWolf" 						prob="0.25"/>
-		<entity name="animalIceburgBabyWolf" 			prob="0.25"/>
-		<entity name="animalIceburgTeenWolf" 			prob="0.25"/>		
+		<entity name="animalBabyWolf" 			prob="0.25"/>
+		<entity name="animalTeenWolf" 			prob="0.25"/>		
 		<entity name="none" 							prob="25"/>		
 	</entitygroup>
 	
 	<entitygroup name="SnowAnimalsGameNight">		
 		<entity name="animalRabbit" 			prob="1.0"/>
-		<entity name="animalIceburgBabyRabbit"	prob="1.0"/>
-		<entity name="animalIceburgTeenRabbit"	prob="1.0"/>		
+		<entity name="animalBabyRabbit"	prob="1.0"/>
+		<entity name="animalTeenRabbit"	prob="1.0"/>		
 		<entity name="animalChicken" 			prob="1.0"/>
-		<entity name="animalIceburgBabyChicken"	prob="1.0"/>
-		<entity name="animalIceburgTeenChicken"	prob="1.0"/>		
+		<entity name="animalBabyChicken"	prob="1.0"/>
+		<entity name="animalTeenChicken"	prob="1.0"/>		
 		<entity name="animalBoar" 				prob="1.0"/>
-		<entity name="animalIceburgBabyBoar" 	prob="1.0"/>
-		<entity name="animalIceburgTeenBoar" 	prob="1.0"/>		
+		<entity name="animalBabyBoar" 	prob="1.0"/>
+		<entity name="animalTeenBoar" 	prob="1.0"/>		
 		<entity name="animalDoe" 				prob="0.75"/>
-		<entity name="animalIceburgBabyDeer" 	prob="0.75"/>
-		<entity name="animalIceburgTeenDoe" 	prob="0.75"/>		
+		<entity name="animalBabyDeer" 	prob="0.75"/>
+		<entity name="animalTeenDoe" 	prob="0.75"/>		
 		<entity name="animalStag" 				prob="0.75"/>
-		<entity name="animalIceburgBabyDeer"	prob="0.75"/>
-		<entity name="animalIceburgTeenStag"	prob="0.75"/>		
+		<entity name="animalBabyDeer"	prob="0.75"/>
+		<entity name="animalTeenStag"	prob="0.75"/>		
 		<entity name="none" 					prob="35.0"/>
 	</entitygroup>
 	
@@ -2416,39 +2416,39 @@ by the game.
 	
 	<entitygroup name="BurntAnimalsAggroDay">
 		<entity name="animalZombieDog"		prob="1.25"/>
-		<entity name="animalIceburgBabyZombieDog"	prob="1.25"/>
-		<entity name="animalIceburgTeenZombieDog"	prob="1.25"/>		
+		<entity name="animalBabyZombieDog"	prob="1.25"/>
+		<entity name="animalTeenZombieDog"	prob="1.25"/>		
 		<entity name="animalWolf"			prob="1.25"/>
-		<entity name="animalIceburgBabyWolf" 		prob="1.25"/>
-		<entity name="animalIceburgTeenWolf" 		prob="1.25"/>		
+		<entity name="animalBabyWolf" 		prob="1.25"/>
+		<entity name="animalTeenWolf" 		prob="1.25"/>		
 		<entity name="animalDireWolf" 		prob="0.20"/>
-		<entity name="animalIceburgBabyDireWolf"	prob=".20"/>
-		<entity name="animalIceburgTeenDireWolf"	prob=".20"/>		
+		<entity name="animalBabyDireWolf"	prob=".20"/>
+		<entity name="animalTeenDireWolf"	prob=".20"/>		
 		<entity name="animalZombieBear" 	prob="0.30"/>
-		<entity name="animalIceburgBabyZombieBear"	prob="0.30"/>
-		<entity name="animalIceburgTeenZombieBear"	prob="0.30"/>
+		<entity name="animalBabyZombieBear"	prob="0.30"/>
+		<entity name="animalTeenZombieBear"	prob="0.30"/>
 		<entity name="animalBear" 			prob="0.30"/>
-		<entity name="animalIceburgBabyBear" 		prob="0.30"/>
-		<entity name="animalIceburgTeenBear" 		prob="0.30"/>		
+		<entity name="animalBabyBear" 		prob="0.30"/>
+		<entity name="animalTeenBear" 		prob="0.30"/>		
 		<entity name="none" 				prob="90"/>
 	</entitygroup>
 
 	<entitygroup name="BurntAnimalsGameDay">
 		<entity name="animalRabbit" 	prob="1.0"/>
-		<entity name="animalIceburgBabyRabbit"	prob="1.0"/>
-		<entity name="animalIceburgTeenRabbit"	prob="1.0"/>		
+		<entity name="animalBabyRabbit"	prob="1.0"/>
+		<entity name="animalTeenRabbit"	prob="1.0"/>		
 		<entity name="animalChicken" 	prob="0.75"/>
-		<entity name="animalIceburgBabyChicken"	prob="0.75"/>
-		<entity name="animalIceburgTeenChicken"	prob="0.75"/>		
+		<entity name="animalBabyChicken"	prob="0.75"/>
+		<entity name="animalTeenChicken"	prob="0.75"/>		
 		<entity name="animalBoar" 		prob="0.75"/>
-		<entity name="animalIceburgBabyBoar" 		prob="0.75"/>
-		<entity name="animalIceburgTeenBoar" 		prob="0.75"/>		
+		<entity name="animalBabyBoar" 		prob="0.75"/>
+		<entity name="animalTeenBoar" 		prob="0.75"/>		
 		<entity name="animalStag" 		prob="0.50"/>
-		<entity name="animalIceburgBabyDeer"	prob="0.50"/>
-		<entity name="animalIceburgTeenStag"	prob="0.50"/>		
+		<entity name="animalBabyDeer"	prob="0.50"/>
+		<entity name="animalTeenStag"	prob="0.50"/>		
 		<entity name="animalDoe" 		prob="0.50"/>
-		<entity name="animalIceburgBabyDeer"	prob="0.50"/>
-		<entity name="animalIceburgTeenDoe"	prob="0.50"/>		
+		<entity name="animalBabyDeer"	prob="0.50"/>
+		<entity name="animalTeenDoe"	prob="0.50"/>		
 		<entity name="none" 			prob="50"/>
 	</entitygroup>
 	
@@ -2535,39 +2535,39 @@ by the game.
 	
 	<entitygroup name="BurntAnimalsAggroNight">
 		<entity name="animalZombieDog"					prob="1.25"/>
-		<entity name="animalIceburgBabyZombieDog" 		prob="1.25"/>
-		<entity name="animalIceburgTeenZombieDog" 		prob="1.25"/>		
+		<entity name="animalBabyZombieDog" 		prob="1.25"/>
+		<entity name="animalTeenZombieDog" 		prob="1.25"/>		
 		<entity name="animalZombieBear" 				prob="0.50"/>
-		<entity name="animalIceburgBabyZombieBear" 		prob="0.50"/>
-		<entity name="animalIceburgTeenZombieBear" 		prob="0.50"/>		
+		<entity name="animalBabyZombieBear" 		prob="0.50"/>
+		<entity name="animalTeenZombieBear" 		prob="0.50"/>		
 		<entity name="animalBear" 						prob="0.50"/>
-		<entity name="animalIceburgBabyBear" 			prob="0.50"/>
-		<entity name="animalIceburgTeenBear" 			prob="0.50"/>		
+		<entity name="animalBabyBear" 			prob="0.50"/>
+		<entity name="animalTeenBear" 			prob="0.50"/>		
 		<entity name="animalWolf" 						prob="1.25"/>
-		<entity name="animalIceburgBabyWolf" 			prob="1.25"/>
-		<entity name="animalIceburgTeenWolf" 			prob="1.25"/>		
+		<entity name="animalBabyWolf" 			prob="1.25"/>
+		<entity name="animalTeenWolf" 			prob="1.25"/>		
 		<entity name="animalDireWolf" 					prob="0.50"/>
-		<entity name="animalIceburgBabyDireWolf" 		prob="0.50"/>
-		<entity name="animalIceburgTeenDireWolf" 		prob="0.50"/>		
+		<entity name="animalBabyDireWolf" 		prob="0.50"/>
+		<entity name="animalTeenDireWolf" 		prob="0.50"/>		
 		<entity name="none" 							prob="60"/>		
 	</entitygroup>
 	
 	<entitygroup name="BurntAnimalsGameNight">
 		<entity name="animalRabbit" 	prob="1.0"/>
-		<entity name="animalIceburgBabyRabbit"	prob="1.0"/>
-		<entity name="animalIceburgTeenRabbit"	prob="1.0"/>		
+		<entity name="animalBabyRabbit"	prob="1.0"/>
+		<entity name="animalTeenRabbit"	prob="1.0"/>		
 		<entity name="animalStag" 		prob="0.50"/>
-		<entity name="animalIceburgBabyDeer"	prob="0.50"/>
-		<entity name="animalIceburgTeenStag"	prob="0.50"/>		
+		<entity name="animalBabyDeer"	prob="0.50"/>
+		<entity name="animalTeenStag"	prob="0.50"/>		
 		<entity name="animalDoe" 		prob="0.50"/>
-		<entity name="animalIceburgBabyDeer"	prob="0.50"/>
-		<entity name="animalIceburgTeenDoe"	prob="0.50"/>		
+		<entity name="animalBabyDeer"	prob="0.50"/>
+		<entity name="animalTeenDoe"	prob="0.50"/>		
 		<entity name="animalChicken" 			prob="0.75"/>
-		<entity name="animalIceburgBabyChicken"	prob="0.75"/>
-		<entity name="animalIceburgTeenChicken"	prob="0.75"/>		
+		<entity name="animalBabyChicken"	prob="0.75"/>
+		<entity name="animalTeenChicken"	prob="0.75"/>		
 		<entity name="animalBoar" 				prob="0.75"/>
-		<entity name="animalIceburgBabyBoar" 	prob="0.75"/>
-		<entity name="animalIceburgTeenBoar"	prob="0.75"/>
+		<entity name="animalBabyBoar" 	prob="0.75"/>
+		<entity name="animalTeenBoar"	prob="0.75"/>
 		<entity name="none" 					prob="70"/>		
 
 	</entitygroup>
@@ -2734,36 +2734,36 @@ by the game.
 	<entitygroup name="WastelandAnimalsAggroDay" >
 		<entity name="animalZombieDog"				prob="1.0"/>
 		<entity name="animalZombieVulture"			prob="1.0"/>
-		<entity name="animalIceburgBabyZombieVulture"			prob="1.0"/>
-		<entity name="animalIceburgTeenZombieVulture"			prob="1.0"/>		
+		<entity name="animalBabyZombieVulture"			prob="1.0"/>
+		<entity name="animalTeenZombieVulture"			prob="1.0"/>		
 		<entity name="animalZombieDog"			prob="1.0"/>
-		<entity name="animalIceburgBabyZombieDog" 		prob="1.0"/>
-		<entity name="animalIceburgTeenZombieDog" 		prob="1.0"/>		
+		<entity name="animalBabyZombieDog" 		prob="1.0"/>
+		<entity name="animalTeenZombieDog" 		prob="1.0"/>		
 		<entity name="animalZombieBear" 		prob="0.25"/>
-		<entity name="animalIceburgBabyZombieBear" 		prob="0.25"/>
-		<entity name="animalIceburgTeenZombieBear" 		prob="0.25"/>		
+		<entity name="animalBabyZombieBear" 		prob="0.25"/>
+		<entity name="animalTeenZombieBear" 		prob="0.25"/>		
 		<entity name="animalBear" 				prob="0.25"/>
-		<entity name="animalIceburgBabyBear" 		prob="0.25"/>
-		<entity name="animalIceburgTeenBear" 		prob="0.25"/>		
+		<entity name="animalBabyBear" 		prob="0.25"/>
+		<entity name="animalTeenBear" 		prob="0.25"/>		
 		<entity name="animalWolf" 				prob="0.25"/>
-		<entity name="animalIceburgBabyWolf" 		prob="0.25"/>
-		<entity name="animalIceburgTeenWolf" 		prob="0.25"/>		
+		<entity name="animalBabyWolf" 		prob="0.25"/>
+		<entity name="animalTeenWolf" 		prob="0.25"/>		
 		<entity name="animalDireWolf" 			prob="0.25"/>
-		<entity name="animalIceburgBabyDireWolf" 		prob="0.25"/>
-		<entity name="animalIceburgTeenDireWolf" 		prob="0.25"/>
+		<entity name="animalBabyDireWolf" 		prob="0.25"/>
+		<entity name="animalTeenDireWolf" 		prob="0.25"/>
 		<entity name="none" 						prob="75"/>
 	</entitygroup>
 	
 	<entitygroup name="WastelandAnimalsGameDay">		
 		<entity name="animalSnake"					prob="1.0"/>
-		<entity name="animalIceburgBabySnake"	prob="1.0"/>
-		<entity name="animalIceburgTeenSnake"	prob="1.0"/>		
+		<entity name="animalBabySnake"	prob="1.0"/>
+		<entity name="animalTeenSnake"	prob="1.0"/>		
 		<entity name="animalChicken" 				prob="0.75"/>
-		<entity name="animalIceburgBabyChicken"	prob="0.75"/>
-		<entity name="animalIceburgTeenChicken"	prob="0.75"/>
+		<entity name="animalBabyChicken"	prob="0.75"/>
+		<entity name="animalTeenChicken"	prob="0.75"/>
 		<entity name="animalBoar" 					prob="0.5"/>
-		<entity name="animalIceburgBabyBoar" 	prob="0.5"/>
-		<entity name="animalIceburgTeenBoar"	prob="0.5"/>		
+		<entity name="animalBabyBoar" 	prob="0.5"/>
+		<entity name="animalTeenBoar"	prob="0.5"/>		
 		<entity name="none" 						prob="75"/>
 	</entitygroup>
 	
@@ -2907,33 +2907,33 @@ by the game.
 	
 	<entitygroup name="WastelandAnimalsAggroNight" >
 		<entity name="animalZombieDog"					prob="1.0"/>
-		<entity name="animalIceburgBabyZombieDog" 		prob="1.0"/>
-		<entity name="animalIceburgTeenZombieDog" 		prob="1.0"/>		
+		<entity name="animalBabyZombieDog" 		prob="1.0"/>
+		<entity name="animalTeenZombieDog" 		prob="1.0"/>		
 		<entity name="animalZombieBear" 				prob="0.25"/>
-		<entity name="animalIceburgBabyZombieBear" 		prob="0.25"/>
-		<entity name="animalIceburgTeenZombieBear" 		prob="0.25"/>		
+		<entity name="animalBabyZombieBear" 		prob="0.25"/>
+		<entity name="animalTeenZombieBear" 		prob="0.25"/>		
 		<entity name="animalBear" 						prob="0.25"/>
-		<entity name="animalIceburgBabyBear" 			prob="0.25"/>
-		<entity name="animalIceburgTeenBear" 			prob="0.25"/>		
+		<entity name="animalBabyBear" 			prob="0.25"/>
+		<entity name="animalTeenBear" 			prob="0.25"/>		
 		<entity name="animalWolf" 						prob="0.25"/>
-		<entity name="animalIceburgBabyWolf" 			prob="0.25"/>
-		<entity name="animalIceburgTeenWolf" 			prob="0.25"/>		
+		<entity name="animalBabyWolf" 			prob="0.25"/>
+		<entity name="animalTeenWolf" 			prob="0.25"/>		
 		<entity name="animalDireWolf" 					prob="0.25"/>
-		<entity name="animalIceburgBabyDireWolf" 		prob="0.25"/>
-		<entity name="animalIceburgTeenDireWolf" 		prob="0.25"/>		
+		<entity name="animalBabyDireWolf" 		prob="0.25"/>
+		<entity name="animalTeenDireWolf" 		prob="0.25"/>		
 		<entity name="none" 							prob="60"/>
 	</entitygroup>
 	
 	<entitygroup name="WastelandAnimalsGameNight">		
 		<entity name="animalSnake"				prob="1.0"/>
-		<entity name="animalIceburgBabySnake"	prob="1.0"/>
-		<entity name="animalIceburgTeenSnake"	prob="1.0"/>		
+		<entity name="animalBabySnake"	prob="1.0"/>
+		<entity name="animalTeenSnake"	prob="1.0"/>		
 		<entity name="animalChicken" 			prob="0.75"/>
-		<entity name="animalIceburgBabyChicken"	prob="0.75"/>
-		<entity name="animalIceburgTeenChicken"	prob="0.75"/>		
+		<entity name="animalBabyChicken"	prob="0.75"/>
+		<entity name="animalTeenChicken"	prob="0.75"/>		
 		<entity name="animalBoar" 				prob="0.5"/>
-		<entity name="animalIceburgBabyBoar" 	prob="0.5"/>
-		<entity name="animalIceburgTeenBoar"	prob="0.5"/>
+		<entity name="animalBabyBoar" 	prob="0.5"/>
+		<entity name="animalTeenBoar"	prob="0.5"/>
 		<entity name="none" 					prob="105"/>
 	</entitygroup>
 
@@ -3806,14 +3806,14 @@ The WanderingHorde spawner has been gutted out and new zombie groups below have 
 		<entity name="enDesertCowboy2" prob="0.4"/>
 		<entity name="enDesertCowgirl1" prob="0.4"/>
 		<entity name="animalChicken"/>
-		<entity name="animalIceburgBabyChicken"/>
-		<entity name="animalIceburgTeenChicken"/>
+		<entity name="animalBabyChicken"/>
+		<entity name="animalTeenChicken"/>
 		<entity name="animalBoar"/>
-		<entity name="animalIceburgBabyBoar"/>
-		<entity name="animalIceburgTeenBoar"/>
+		<entity name="animalBabyBoar"/>
+		<entity name="animalTeenBoar"/>
 		<entity name="animalZombieDog"/>
-		<entity name="animalIceburgBabyZombieDog"/>
-		<entity name="animalIceburgTeenZombieDog"/>
+		<entity name="animalBabyZombieDog"/>
+		<entity name="animalTeenZombieDog"/>
 	</entitygroup>
 </append>
 
