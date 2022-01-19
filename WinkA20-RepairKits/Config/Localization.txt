@@ -20,9 +20,9 @@ resourceMetalArmorRepairKitDesc,items,Item,New,"Metal Armor Repair Kits are used
 resourceMilitaryArmorRepairKit,items,Item,New,Military Armor Repair Kit
 resourceMilitaryArmorRepairKitDesc,items,Item,New,"Military Armor Repair Kits are used to repair all types of Military Armor."
 
-armorClothGroupDesc,items,Clothes,New,"Light armor will encumber you a little and provides some protection against damage.\nIt will not protect you from the weather.\n\nRepair with a Nonmetal Armor Repair Kit.\nScrap to cloth."
+
 armorHeavyGroupDesc,items,Clothes,New,"Heavy armor will encumber you but provides good protection against damage.\nIt will not protect you from the weather.\n\nRepair with a Metal Armor Repair Kit.\nScrap to Iron."
-armorLeatherGroupDesc,items,Clothes,New,"Light armor will encumber you a little and provides some protection against damage.\nIt will not protect you from the weather.\n\nRepair with a Nonmetal Armor Repair Kit.\nScrap to leather."
+
 armorMilitaryGroupDesc,items,Clothes,New,"Light armor will encumber you a little and provides some protection against damage.\nIt will not protect you from the weather.\n\nRepair with a Military Armor Repair Kit.\nScrap to military armor parts."
 armorMilitaryStealthBootsDesc,items,Clothes,New,"These military stealth boots have no stamina use penalty and muffle noise from movement.\n\nRepair with a Military Armor Repair Kit.\nScrap to military armor parts.."
 
@@ -33,25 +33,21 @@ meleeWpnSpearT3SteelSpearDesc,items,Melee,New,"Spears have more range than other
 meleeWpnBladeT3MacheteDesc,items,Melee,New,"Great for chopping zombies and sometimes trees and gutting animals for meat.\nRegular attacks cause 1 Bleeding Wound and power attacks at least 2.\nRepair with Machete parts.\nScrap to Machete parts."
 meleeWpnBatonT2StunBatonDesc,items,Melee,New,"Goes zap.\n\nRepair with Stun Baton parts.\nScrap to Stun Baton parts."
 
-gunHandgunT1PistolDesc,items,Gun,New,"A basic pistol that uses 9mm ammo.\n\nRepair with a Pistol Repair Kit.\nScrap to Handgun Parts."
 gunHandgunT2Magnum44Desc,items,Gun,New,"The .44 Magnum is the king of handguns. It's the most powerful but makes the most noise. Wield this bad boy and make Clint proud.\n\nRepair with a Pistol Repair Kit.\nScrap to Handgun Parts."
 gunHandgunT3DesertVultureDesc,items,Gun,New,"This heavy pistol uses .44 Magnum ammo.\n\nRepair with a Pistol Repair Kit.\nScrap to Handgun Parts."
 gunHandgunT3SMG5Desc,items,Gun,New,"This submachine gun uses 9mm ammo.\n\nRepair with a Pistol Repair Kit.\nScrap to Handgun Parts."
 
-gunMGT1AK47Desc,items,Gun,New,"This badass AK-47 Machine Gun uses 7.62mm ammo.\n\nRepair with a Machine Gun Repair Kit.\nScrap to Machine Gun Parts."
 gunMGT2TacticalARDesc,items,Gun,New,"This Tactical Assault Rifle uses 7.62mm ammo.\n\nRepair with a Machine Gun Repair Kit.\nScrap to Machine Gun Parts."
 gunMGT3M60Desc,items,Gun,New,"Machine guns are somewhat cumbersome to use but excel at automatic fire. This one uses 7.62mm ammo.\n\nRepair with a Machine Gun Repair Kit.\nScrap to Machine Gun Parts."
 
-gunRifleT1HuntingRifleDesc,items,Gun,New,"This common farmer's hunting rifle uses 7.62mm ammo.\n\nRepair with a Rifle Repair Kit.\nScrap to Rifle parts."
 gunRifleT2MarksmanRifleDesc,items,Gun,New,"This marksman's rifle uses 7.62mm ammo and is your first choice if you want to make that shot count.\n\nRepair with a Rifle Repair Kit.\nScrap to Rifle parts."
 gunRifleT3SniperRifleDesc,items,Gun,New,"This high precision, long ranged rifle is perfect for sniping enemies at great distances.\n\nRepair with a Rifle Repair Kit.\nScrap to Rifle parts."
 
-gunShotgunT1DoubleBarrelDesc,items,Gun,New,"A rusty old double barrel shotgun, great for close range carnage.\n\nRepair with a Shotgun Repair Kit.\nScrap to Shotgun Parts."
 gunShotgunT2PumpShotgunDesc,items,Gun,New,"A long-barreled shotgun with pump action loading .\n\nRepair with a Shotgun Repair Kit.\nScrap to Shotgun Parts."
 gunShotgunT3AutoShotgunDesc,items,Gun,New,"This semi automatic shotgun is a rare and devasting short range weapon capable of making minced meat out of anything in its path.\n\nRepair with a Shotgun Repair Kit.\nScrap to Shotgun Parts."
 
-gunBowT1IronCrossbowDesc,items,Gun,New,"A crossbow is slow to reload but does more damage than a bow.\nThis weapon can be fired underwater.\nHold reload to use alternate ammo.\nRepair with a Bow Repair Kit.\nScrap to Bow / Crossbow Parts."
-gunBowT1WoodenBowDesc,items,Gun,New,"Good for hunting and killing zombies. Uses arrows for ammunition.\nHold reload to use alternate ammo.\n\nRepair with a Bow Repair Kit.\nScrap to Bow / Crossbow Parts."
+
+
 gunBowT3CompoundBowDesc,items,Gun,New,"A compound bow does more damage and arrows fly straighter which makes it easier to aim.\n\nRepair with a Bow Repair Kit.\nScrap to Bow / Crossbow Parts."
 gunBowT3CompoundCrossbowDesc,items,Gun,New,"A compound crossbow is slow to reload but does more damage than a crossbow.\nThis weapon can be fired underwater.\nHold reload to use alternate ammo.\nRepair with a Bow Repair Kit.\nScrap to Bow / Crossbow Parts."
 
