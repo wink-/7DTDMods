@@ -284,7 +284,7 @@
 <!-- Armor -->
 	<!-- Items fixed by Non-metal Armor Repair Kit -->
 	<!-- <set xpath="/items/item[@name='armorClothMaster']/property[@name='RepairTools']/@value">resourceNonmetalArmorRepairKit</set> -->
-	<set xpath="/items/item[@name='armorLeatherMaster']/property[@name='RepairTools']/@value">resourceNonmetalArmorRepairKit</set>
+	<!-- <set xpath="/items/item[@name='armorLeatherMaster']/property[@name='RepairTools']/@value">resourceNonmetalArmorRepairKit</set> -->
 
 	<!-- Items fixed by Metal Armor Repair Kit -->
 	<!-- <set xpath="/items/item[@name='armorScrapMaster']/property[@name='RepairTools']/@value">resourceMetalArmorRepairKit</set> -->
