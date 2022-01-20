@@ -13,3 +13,5 @@
 <!-- XUi/window.xml - Removed time from window -->
 <!-- spawning.xml - Moved spawning from enZombies to this package. Imported dangerous cities into it. -->
 <!-- entitygroups.xml - Moved from enZombies to this package -->
+<!-- traders.xml Added changes from Jax/Robeloto's Nerf Them All-->
+<!-- blocks.xml Added changes from Jax/Robeloto's Nerf Them All-->

@@ -7,8 +7,8 @@
 	<append xpath="/spawning">
 	<biome name="pine_forest">
 		<spawn maxcount="2" respawndelay="2.00"	time="Day" 		entitygroup="PineforestZombiesDay" 				notags="commercial,industrial,downtown" />
-		<spawn maxcount="8" respawndelay="0.50"	time="Day" 		entitygroup="PineforestZombiesDayCity" 			tags="commercial,industrial" notags="downtown" />
-		<spawn maxcount="8" respawndelay="0.30"	time="Day" 		entitygroup="PineforestZombiesDayDowntown" 		tags="downtown" />
+		<spawn maxcount="8" respawndelay="1.00"	time="Day" 		entitygroup="PineforestZombiesDayCity" 			tags="commercial,industrial" notags="downtown" />
+		<spawn maxcount="8" respawndelay="0.50"	time="Day" 		entitygroup="PineforestZombiesDayDowntown" 		tags="downtown" />
 		<spawn maxcount="1" respawndelay="2.00"	time="Day" 		entitygroup="PineforestAnimalsAggroDay" 		spawnDeadChance="0" />
 		<spawn maxcount="1" respawndelay="1.00"	time="Day" 		entitygroup="PineforestAnimalsGameDay" 			spawnDeadChance="0" />
 		<spawn maxcount="4" respawndelay="2.00"	time="Night" 	entitygroup="PineforestZombiesNight" 			notags="commercial,industrial,downtown" />

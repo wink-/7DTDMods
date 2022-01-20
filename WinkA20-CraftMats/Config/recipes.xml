@@ -1,12 +1,3 @@
 <configs>
-	<!-- CHEMISTRY STATION RECIPES -->
-	<append xpath="/recipes">
-		<recipe name="resourceAcid" count="1" craft_time="180" craft_area="chemistryStation" tags="chemStationCrafting">
-			<ingredient name="resourceScrapPolymers" count="50"/>
-			<ingredient name="resourcePotassiumNitratePowder" count="100"/>			
-			<ingredient name="resourceCoal" count="100"/>
-			<ingredient name="drinkJarEmpty" count="1"/>
-			<ingredient name="carBattery" count="1"/>
-		</recipe>
-	</append>
+
 </configs>
