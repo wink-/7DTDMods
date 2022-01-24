@@ -7,15 +7,15 @@
 	<append xpath="/spawning">
 	<biome name="pine_forest">
 		<spawn maxcount="2" respawndelay="2.00"	time="Day" 		entitygroup="PineforestZombiesDay" 				notags="commercial,industrial,downtown" />
-		<spawn maxcount="8" respawndelay="1.00"	time="Day" 		entitygroup="PineforestZombiesDayCity" 			tags="commercial,industrial" notags="downtown" />
+		<spawn maxcount="4" respawndelay="1.00"	time="Day" 		entitygroup="PineforestZombiesDayCity" 			tags="commercial,industrial" notags="downtown" />
 		<spawn maxcount="8" respawndelay="0.50"	time="Day" 		entitygroup="PineforestZombiesDayDowntown" 		tags="downtown" />
 		<spawn maxcount="1" respawndelay="2.00"	time="Day" 		entitygroup="PineforestAnimalsAggroDay" 		spawnDeadChance="0" />
 		<spawn maxcount="1" respawndelay="1.00"	time="Day" 		entitygroup="PineforestAnimalsGameDay" 			spawnDeadChance="0" />
 		<spawn maxcount="4" respawndelay="2.00"	time="Night" 	entitygroup="PineforestZombiesNight" 			notags="commercial,industrial,downtown" />
 		<spawn maxcount="8" respawndelay="0.30"	time="Night" 	entitygroup="PineforestZombiesNightCity" 		tags="commercial,industrial" notags="downtown" />
 		<spawn maxcount="8" respawndelay="0.15"	time="Night" 	entitygroup="PineforestZombiesNightDowntown" 	tags="downtown" />
-		<spawn maxcount="2" respawndelay="1.00"	time="Night" 	entitygroup="PineforestAnimalsAggroNight" 		spawnDeadChance="0" />
-		<spawn maxcount="2" respawndelay="1.00"	time="Night" 	entitygroup="PineforestAnimalsGameNight" 		spawnDeadChance="0" />
+		<spawn maxcount="1" respawndelay="1.00"	time="Night" 	entitygroup="PineforestAnimalsAggroNight" 		spawnDeadChance="0" />
+		<spawn maxcount="1" respawndelay="1.00"	time="Night" 	entitygroup="PineforestAnimalsGameNight" 		spawnDeadChance="0" />
 	</biome>
 	</append>
 	
@@ -25,7 +25,7 @@
 	<append xpath="/spawning">
 	<biome name="desert">
 		<spawn maxcount="2" respawndelay="2.00" time="Day" 		entitygroup="DesertZombiesDay"				notags="commercial,industrial,downtown" />
-		<spawn maxcount="8" respawndelay="0.50" time="Day" 		entitygroup="DesertZombiesDayCity"			tags="commercial,industrial" notags="downtown" />
+		<spawn maxcount="6" respawndelay="0.50" time="Day" 		entitygroup="DesertZombiesDayCity"			tags="commercial,industrial" notags="downtown" />
 		<spawn maxcount="8" respawndelay="0.30" time="Day" 		entitygroup="DesertZombiesDayDowntown"		tags="downtown" />
 		<spawn maxcount="1" respawndelay="2.00"	time="Day" 		entitygroup="DesertAnimalsAggroDay" 		spawnDeadChance="0" />
 		<spawn maxcount="1" respawndelay="1.00"	time="Day" 		entitygroup="DesertAnimalsGameDay" 			spawnDeadChance="0" />
@@ -43,7 +43,7 @@
 	<append xpath="/spawning">
 	<biome name="snow">
 		<spawn maxcount="2" respawndelay="2.00" time="Day" 		entitygroup="SnowZombiesDay"		 	notags="commercial,industrial,downtown" />
-		<spawn maxcount="8" respawndelay="0.50" time="Day" 		entitygroup="SnowZombiesDayCity"		tags="commercial,industrial" notags="downtown" />
+		<spawn maxcount="6" respawndelay="0.50" time="Day" 		entitygroup="SnowZombiesDayCity"		tags="commercial,industrial" notags="downtown" />
 		<spawn maxcount="8" respawndelay="0.30" time="Day" 		entitygroup="SnowZombiesDayDowntown"	tags="downtown" />
 		<spawn maxcount="1" respawndelay="2.00" time="Day" 		entitygroup="SnowAnimalsAggroDay" 		spawnDeadChance="0" />
 		<spawn maxcount="1" respawndelay="1.00" time="Day" 		entitygroup="SnowAnimalsGameDay" 		spawnDeadChance="0" />
@@ -61,7 +61,7 @@
 	<append xpath="/spawning">
 	<biome name="burnt_forest">
 		<spawn maxcount="2" respawndelay="2.00" time="Day" 		entitygroup="BurntZombiesDay"			notags="commercial,industrial,downtown" />
-		<spawn maxcount="8" respawndelay="0.50" time="Day" 		entitygroup="BurntZombiesDayCity"		tags="commercial,industrial" notags="downtown" />
+		<spawn maxcount="6" respawndelay="0.50" time="Day" 		entitygroup="BurntZombiesDayCity"		tags="commercial,industrial" notags="downtown" />
 		<spawn maxcount="8" respawndelay="0.30" time="Day" 		entitygroup="BurntZombiesDayDowntown"	tags="downtown" />
 		<spawn maxcount="1" respawndelay="2.00" time="Day" 		entitygroup="BurntAnimalsAggroDay"		spawnDeadChance="0" />
 		<spawn maxcount="1" respawndelay="1.00" time="Day" 		entitygroup="BurntAnimalsGameDay" 		spawnDeadChance="0" />

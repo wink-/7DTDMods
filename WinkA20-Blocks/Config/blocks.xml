@@ -1,0 +1,17 @@
+<config>
+    <set xpath="/blocks/block[@name='shippingContainerDoorFrameGreen']/property[@name='Material']/@value">Miron</set>
+    
+	<append xpath="/blocks">
+		<block name="shippingContainerBlockVariantHelper">
+            <property name="Extends" value="shippingContainerDoorFrameGreen"/>
+            <property name="CustomIcon" value="shippingContainerDoorFrameGreen"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+            <property name="ItemTypeIcon" value="all_blocks"/>
+            <property name="SelectAlternates" value="true"/>
+            <property name="PlaceAltBlockValue" value="shippingContainerSideGreen,shippingContainerSideTextGreen,shippingContainerSideHoleGreen,shippingContainerSideBlue,shippingContainerSideTextBlue,shippingContainerSideHoleBlue,shippingContainerSideOrange,shippingContainerSideTextOrange,shippingContainerSideHoleOrange,shippingContainerDoorFrameGreen,shippingContainerDoorsClosedGreen,shippingContainerDoorFrameBlue,shippingContainerDoorsClosedBlue,shippingContainerDoorFrameOrange,shippingContainerDoorsClosedOrange,shippingContainerDoorLeftOpenGreen,shippingContainerDoorRightOpenGreen,shippingContainerDoorLeftOpenBlue,shippingContainerDoorRightOpenBlue,shippingContainerDoorLeftOpenOrange,shippingContainerDoorRightOpenOrange"/>
+            <property name="Stacknumber" value="50"/>
+            <property name="FilterTags" value="MC_playerBlocks,SC_playerHelpers"/>
+        </block>
+	</append>
+</config>

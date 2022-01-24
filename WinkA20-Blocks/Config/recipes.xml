@@ -1,0 +1,7 @@
+<config>
+	<append xpath="/recipes">
+		<recipe name="shippingContainerBlockVariantHelper"  count="1"  craft_area="workbench"  craft_time="540" >
+			<ingredient name="resourceForgedIron"  count="90" />
+		</recipe>
+	</append>
+</config>
