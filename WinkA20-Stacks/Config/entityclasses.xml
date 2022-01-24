@@ -1,7 +1,0 @@
-<configs>
-
-<!-- entityclass.xml Adds a bike to the starter items  -->
-
-<set xpath="//entity_class[@name='playerMale']/property[starts-with(@name, 'ItemsOnEnterGame')]/@value">drinkJarBoiledWater,foodCanChili,medicalFirstAidBandage,meleeToolTorch,keystoneBlock,vehicleBicyclePlaceable</set>
-
-</configs>

@@ -1,4 +1,0 @@
-<configs>
-<!--progression.xml - Slower progression. Raises XP Needed to Level from 11545 to 12545 -->
-    <set xpath="/progression/level[@max_level='300']/@exp_to_level">12545</set>
-</configs>
