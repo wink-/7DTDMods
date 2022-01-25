@@ -7,5 +7,5 @@ entityclasses.xml
 -->
 
 <configs>
-    <set xpath="/entity_classes/entity_class[starts-with(@name,'EntityLootContainer')]/property[@name='TimeStayAfterDeath']/@value">2400</set>
+    <set xpath="/entity_classes/entity_class[starts-with(@name,'EntityLootContainer')]/property[@name='TimeStayAfterDeath']/@value">600</set>
 </configs>

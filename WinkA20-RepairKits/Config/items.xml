@@ -274,9 +274,9 @@
 
 <!-- Robotics -->
 	<!-- Robotic Parts Repair Items -->
-	<set xpath="/items/item[@name='gunBotT1JunkSledge']/property[@name='RepairTools']/@value">gunBotRoboticsParts</set>
+	<!-- <set xpath="/items/item[@name='gunBotT1JunkSledge']/property[@name='RepairTools']/@value">gunBotRoboticsParts</set>
 	<set xpath="/items/item[@name='gunBotT2JunkTurret']/property[@name='RepairTools']/@value">gunBotRoboticsParts</set>
-	<set xpath="/items/item[@name='gunBotT3JunkDrone']/property[@name='RepairTools']/@value">gunBotRoboticsParts</set>
+	<set xpath="/items/item[@name='gunBotT3JunkDrone']/property[@name='RepairTools']/@value">gunBotRoboticsParts</set> -->
 
 	<!-- Rocket Launcher Parts Repair Items -->
 	<set xpath="/items/item[@name='gunExplosivesT3RocketLauncher']/property[@name='RepairTools']/@value">gunExplosivesT3RocketLauncherParts</set>
